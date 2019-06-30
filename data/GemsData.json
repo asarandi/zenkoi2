@@ -1,0 +1,475 @@
+{
+	"1": [
+		{
+			"first": {
+				"type": "prey",
+				"id": [1],
+				"count": 1
+			},
+			"second": {
+				"type": "prey",
+				"id": [12],
+				"count": 2
+			},
+			"result": {
+				"type": "gem",
+				"id": 16
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [16],
+				"count": 3
+			},
+			"result": {
+				"type": "portal",
+				"id": 2
+			}
+		}
+	],
+	"2": [
+		{
+			"first": {
+				"type": "prey",
+				"id": [6,13],
+				"count": 4
+			},
+			"second": {
+				"type": "prey",
+				"id": [4],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 1
+			}
+		},
+		{
+			"first": {
+				"type": "prey",
+				"id": [6,13],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 0
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [1],
+				"count": 3
+			},
+			"second": {
+				"type": "gem",
+				"id": [0],
+				"count": 3
+			},
+			"result": {
+				"type": "portal",
+				"id": 3
+			}
+		}
+	],
+	"3": [
+		{
+			"first": {
+				"type": "prey",
+				"id": [2,5,7,14,20,21],
+				"count": 5
+			},
+			"second": {
+				"type": "prey",
+				"id": [2,5,7,14,20,21],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 1
+			}
+		},
+		{
+			"first": {
+				"type": "prey",
+				"id": [2,5,7,14,20,21],
+				"count": 5
+			},
+			"second": {
+				"type": "prey",
+				"id": [2,5,7,14,20,21],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 2
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [1],
+				"count": 2
+			},
+			"second": {
+				"type": "gem",
+				"id": [2],
+				"count": 2
+			},
+			"result": {
+				"type": "portal",
+				"id": 4
+			}
+		}
+	],
+	"4": [
+		{
+			"first": {
+				"type": "prey",
+				"id": [2,5,7,14,20,21],
+				"count": 5
+			},
+			"second": {
+				"type": "prey",
+				"id": [2,5,7,14,20,21],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 1
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [1],
+				"count": 2
+			},
+			"result": {
+				"type": "gem",
+				"id": 6
+			}
+		},
+		{
+			"first": {
+				"type": "prey",
+				"id": [2,5,7,14,20,21],
+				"count": 5
+			},
+			"second": {
+				"type": "prey",
+				"id": [2,5,7,14,20,21],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 2
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [6],
+				"count": 2
+			},
+			"second": {
+				"type": "gem",
+				"id": [2],
+				"count": 1
+			},
+			"result": {
+				"type": "portal",
+				"id": 5
+			}
+		}
+	],
+	"5": [
+		{
+			"first": {
+				"type": "prey",
+				"id": [3,8,11,16,17,19],
+				"count": 4
+			},
+			"second": {
+				"type": "prey",
+				"id": [3,8,11,16,17,19],
+				"count": 3
+			},
+			"result": {
+				"type": "gem",
+				"id": 1
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [1],
+				"count": 2
+			},
+			"result": {
+				"type": "gem",
+				"id": 6
+			}
+		},
+		{
+			"first": {
+				"type": "prey",
+				"id": [3,8,11,16,17,19],
+				"count": 4
+			},
+			"second": {
+				"type": "prey",
+				"id": [3,8,11,16,17,19],
+				"count": 3
+			},
+			"result": {
+				"type": "gem",
+				"id": 2
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [2],
+				"count": 2
+			},
+			"result": {
+				"type": "gem",
+				"id": 7
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [6],
+				"count": 1
+			},
+			"second": {
+				"type": "gem",
+				"id": [7],
+				"count": 1
+			},
+			"result": {
+				"type": "portal",
+				"id": 6
+			}
+		}
+	],
+	"6": [
+		{
+			"first": {
+				"type": "prey",
+				"id": [3,8,11,16,17,19],
+				"count": 5
+			},
+			"second": {
+				"type": "prey",
+				"id": [3,8,11,16,17,19],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 2
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [2],
+				"count": 2
+			},
+			"result": {
+				"type": "gem",
+				"id": 7
+			}
+		},
+		{
+			"first": {
+				"type": "prey",
+				"id": [3,8,11,16,17,19],
+				"count": 5
+			},
+			"second": {
+				"type": "prey",
+				"id": [3,8,11,16,17,19],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 3
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [3],
+				"count": 2
+			},
+			"result": {
+				"type": "gem",
+				"id": 8
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [7],
+				"count": 1
+			},
+			"second": {
+				"type": "gem",
+				"id": [8],
+				"count": 1
+			},
+			"result": {
+				"type": "portal",
+				"id": 7
+			}
+		}
+	],
+	"7": [
+		{
+			"first": {
+				"type": "prey",
+				"id": [9,10,15,18,22,23],
+				"count": 5
+			},
+			"second": {
+				"type": "prey",
+				"id": [9,10,15,18,22,23],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 3
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [3],
+				"count": 2
+			},
+			"result": {
+				"type": "gem",
+				"id": 8
+			}
+		},
+		{
+			"first": {
+				"type": "prey",
+				"id": [9,10,15,18,22,23],
+				"count": 5
+			},
+			"second": {
+				"type": "prey",
+				"id": [9,10,15,18,22,23],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 4
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [4],
+				"count": 2
+			},
+			"result": {
+				"type": "gem",
+				"id": 9
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [8],
+				"count": 2
+			},
+			"second": {
+				"type": "gem",
+				"id": [9],
+				"count": 1
+			},
+			"result": {
+				"type": "portal",
+				"id": 8
+			}
+		}
+	],
+	"8": [
+		{
+			"first": {
+				"type": "prey",
+				"id": [9,10,15,18,22,23],
+				"count": 5
+			},
+			"second": {
+				"type": "prey",
+				"id": [9,10,15,18,22,23],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 4
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [4],
+				"count": 2
+			},
+			"result": {
+				"type": "gem",
+				"id": 9
+			}
+		},
+		{
+			"first": {
+				"type": "prey",
+				"id": [9,10,15,18,22,23],
+				"count": 5
+			},
+			"second": {
+				"type": "prey",
+				"id": [9,10,15,18,22,23],
+				"count": 4
+			},
+			"result": {
+				"type": "gem",
+				"id": 5
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [5],
+				"count": 2
+			},
+			"result": {
+				"type": "gem",
+				"id": 10
+			}
+		},
+		{
+			"first": {
+				"type": "gem",
+				"id": [9],
+				"count": 2
+			},
+			"second": {
+				"type": "gem",
+				"id": [10],
+				"count": 1
+			},
+			"result": {
+				"type": "portal",
+				"id": 9
+			}
+		}
+	]
+}

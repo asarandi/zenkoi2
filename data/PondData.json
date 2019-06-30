@@ -1,0 +1,874 @@
+﻿{
+	"energyEnabled":false,
+	"allowSnow":false,
+	"allowEaster":false,
+	"daysBeforeBannerAds":7,
+	"daysBeforeInterstitialAds":4,
+	"daysBeforeRewarded":1,
+	"maxRewardedAdsPerDay":15,
+	"patternIncubationHours":[
+		0.08333, 0.58333, 2.5, 7.5, 15, 18, 20, 21, 22, 23,
+		24, 25, 26, 27, 28, 29, 30, 31, 32, 33,
+		34, 35, 36, 37, 38, 39, 40, 41, 42, 43,
+		22, 22, 22, 22, 22, 22, 22, 22, 22, 22,
+		22, 22, 22, 22, 22, 22, 22, 22, 22, 22,
+		10, 10, 10, 10, 10, 10, 11, 11, 12, 12,
+		10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
+		12, 12, 13, 13, 14, 14, 15, 15, 16, 16,
+		17, 17, 18, 18, 19, 19, 20, 20, 21, 21,
+		22, 22, 23, 23, 24, 24, 24, 24, 24, 24,
+		20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+		20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+		20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+		20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+		20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+		20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+		20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+		20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+		20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+		20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+	],
+	"patternIncubationIncrementHours":1,
+	"patternIncubationMaxHours":100,
+	"dragonRealmMinEssence":12,
+	"dragonRealmMaxEssence":18,
+	"myPondUnlockEssence":200,
+	"numberOfSkinPatterns":200,
+	"baseColourNames": ["Shi", 	"Ki", 	"Aka", 	"Ku"],
+	"spotColourNames": ["shiro", "ukon", "dai", "kuro", "pinku", "mura", "mido", "burū"],
+	"patternNames": [
+		"Inazuma",	"Nidan",	"Goten",	"Kirin",	"Pūru",		"Kimasu",	"Zebura",	"Meisai",	"Shizuku",	"Supurē",
+		"Toraiu",	"Goromo",	"Kohaku",	"Masuku",	"Shapu",	"Utsuri",	"Kanoko",	"Goshiki",	"Kawari",	"Bekko",
+		"Mame",		"Ogon",		"Kujaku",	"Doitsu",	"Kumon",	"Ginrin",	"Bākōdo",	"Godan",	"Tojiki",	"Katame",
+		"Rōru",		"Kōsen",	"Ōkan",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"Bēta",		"Kigen",	"Kurinpu",	"Onpa",		"Tanoshī",	"Naisu",	"Happī",	"Sutātā",	"Hosshin",	"Konma",
+		"Daimon",	"Sutaggu",	"Mōdōru",	"Tsuru",	"Habu",		"Karātōn",	"Hanrin",	"Taiju",	"Kubiwa",	"Kōmori",
+		"Dokuro",	"Sētā",		"Kodani",	"Hanabi",	"Rabu",		"Seikyō",	"Usagi",	"Fuwa",		"Hanami",	"Gekkō",
+		"Sunō",		"Shūkaku",	"Koneku",	"Guriddo",	"Jiotori",	"Sankaku",	"Botan",	"Sukēru",	"Ekkusu",	"Kanmon",
+		"Raion",	"Shikaku",	"Hōseki",	"Tōtemu",	"Parīfu",	"Sanfaia",	"Jagī",		"Ryūga",	"Onmyō",	"Shibaru",
+		"Rasen",	"Suna",		"Dēta",		"Ākuu",		"Tōgō",		"Dīenuē",	"Supīdo",	"Pazuru",	"Toge",		"Yanonē",
+		"Saishō",	"Rakkī",	"Chiru",	"Togatta",	"Chekā",	"Kamen",	"Mozaiku",	"Yumi",		"Koibori",	"Esshā",
+		"Yagi",		"Mirāju",	"Amado",	"Akua",		"Ginga",	"Burēku",	"Uoza",		"Rōzu",		"Shākī",	"Hitsuji",
+		"Soru",		"Chokka",	"Oushi",	"Saku",		"Seiza",	"Tsuin",	"Tetsuya",	"Hari",		"Kani",		"Natsu",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"Sakaeru",	"Suteki",	"Sanba",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???"],
+	"patternNamesAlt": [
+		"Inazuma",	"Nidan",	"Goten",	"Kirin",	"Puru",		"Kimasu",	"Zebura",	"Meisai",	"Shizuku",	"Supure",
+		"Toraiu",	"Goromo",	"Kohaku",	"Masuku",	"Shapu",	"Utsuri",	"Kanoko",	"Goshiki",	"Kawari",	"Bekko",
+		"Mame",		"Ogon",		"Kujaku",	"Doitsu",	"Kumon",	"Ginrin",	"Bakodo",	"Godan",	"Tojiki",	"Katame",
+		"Roru",		"Kosen",	"Okan",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"Beta",		"Kigen",	"Kurinpu",	"Onpa",		"Tanoshi",	"Naisu",	"Happi",	"Sutata",	"Hosshin",	"Konma",
+		"Daimon",	"Sutaggu",	"Modoru",	"Tsuru",	"Habu",		"Karaton",	"Hanrin",	"Taiju",	"Kubiwa",	"Komori",
+		"Dokuro",	"Seta",		"Kodani",	"Hanabi",	"Rabu",		"Seikyo",	"Usagi",	"Fuwa",		"Hanami",	"Gekko",
+		"Suno",		"Shukaku",	"Koneku",	"Guriddo",	"Jiotori",	"Sankaku",	"Botan",	"Sukeru",	"Ekkusu",	"Kanmon",
+		"Raion",	"Shikaku",	"Hoseki",	"Totemu",	"Parifu",	"Sanfaia",	"Jagi",		"Ryuga",	"Onmyo",	"Shibaru",
+		"Rasen",	"Suna",		"Deta",		"Akuu",		"Togo",		"Dienue",	"Supido",	"Pazuru",	"Toge",		"Yanone",
+		"Saisho",	"Rakki",	"Chiru",	"Togatta",	"Cheka",	"Kamen",	"Mozaiku",	"Yumi",		"Koibori",	"Essha",
+		"Yagi",		"Miraju",	"Amado",	"Akua",		"Ginga",	"Bureku",	"Uoza",		"Rozu",		"Shaki",	"Hitsuji",
+		"Soru",		"Chokka",	"Oushi",	"Saku",		"Seiza",	"Tsuin",	"Tetsuya",	"Hari",		"Kani",		"Natsu",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"Sakaeru",	"Suteki",	"Sanba",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",
+		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???",		"???"],
+	"firstCollectorsSkinIndex":30,
+	"highestBasicPatternReleased":29,
+	"fishCollectedBeforeUnlockingNextPattern":5,
+	"maxTimesFishCanBeGifted":1,
+	"maxLevelFishCanBeGifted":9,
+	"highQualityInterval":30000,
+	"normalQualityInterval":100000,
+	"prey":[
+		{"id":1,	"name":"Dart",		"color":"mesh","distance_detect":195.0,"distance_fatal":120.0,"speed_normal":70.0, "speed_fast":90.0,"speed_fastest":114.0,"acceleration":30.0,  "turn_cooldown":1.0, "turn_rate":0.5, "xp":20, "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3},
+		{"id":2,	"name":"Dart2",		"color":"mesh","distance_detect":195.0,"distance_fatal":120.0,"speed_normal":65.0, "speed_fast":100.0,"speed_fastest":120.0,"acceleration":40.0,  "turn_cooldown":1.0, "turn_rate":0.5, "xp":40, "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3},
+		{"id":3,	"name":"Dart3",		"color":"mesh","distance_detect":195.0,"distance_fatal":75.0,"speed_normal":80.0, "speed_fast":120.0,"speed_fastest":135.0,"acceleration":50.0,  "turn_cooldown":2.0, "turn_rate":1.0, "xp":300, "edible":1.0, "targeting_fish":-0.7, "targeting_hiding_plant":0.1, "targeting_stinging_plant":0, "targeting_egg":1.3},
+		{"id":4,	"name":"Jelly",		"color":"mesh","distance_detect":220.0,"distance_fatal":150.0,"speed_normal":70.0, "speed_fast":80.0, "speed_fastest":90.0, "acceleration":10.0,  "turn_cooldown":1.0, "turn_rate":0.2, "xp":35, "edible":1.0, "targeting_fish":-0.4, "targeting_hiding_plant":-1.0, "targeting_stinging_plant":-1.0, "targeting_egg":0.0},
+		{"id":5,	"name":"Jelly2",	"color":"mesh","distance_detect":220.0,"distance_fatal":150.0,"speed_normal":70.0, "speed_fast":80.0, "speed_fastest":90.0, "acceleration":10.0,  "turn_cooldown":1.0, "turn_rate":0.2, "xp":80, "edible":1.0, "targeting_fish":-0.4, "targeting_hiding_plant":-1.0, "targeting_stinging_plant":-1.0, "targeting_egg":0.0},
+		{"id":6,	"name":"Worm",		"color":"line","distance_detect":0.0,"distance_fatal":0.0,"speed_normal":25.0, "speed_fast":25.0, "speed_fastest":25.0, "acceleration":30.0, "turn_cooldown":0.01, "turn_rate":0.7, "xp":24,  "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3, "wave_motion_amplitude":0.1, "wave_motion_frequency":2.0},
+		{"id":7,	"name":"Worm2",		"color":"line","distance_detect":100.0,"distance_fatal":75.0,"speed_normal":20.0, "speed_fast":40.0, "speed_fastest":60.0, "acceleration":30.0, "turn_cooldown":0.01, "turn_rate":0.4, "xp":30,   "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3, "wave_motion_amplitude":0.05, "wave_motion_frequency":3.0},
+		{"id":8,	"name":"Worm3",		"color":"line","distance_detect":195.0,"distance_fatal":120.0,"speed_normal":80.0, "speed_fast":85.0, "speed_fastest":90.0, "acceleration":100.0, "turn_cooldown":0.01, "turn_rate":10.0, "xp":150,   "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":0, "wave_motion_amplitude":0.115, "wave_motion_frequency":3.0},
+		{"id":9,	"name":"UpDownFish","color":"sprite","distance_detect":120.0,"distance_fatal":75.0,"speed_normal":35.0, "speed_fast":150.0, "speed_fastest":300.0, "acceleration":50.0, "turn_cooldown":0.4, "turn_rate":0.2, "xp":700, "edible":1.0, "targeting_fish":-0.5, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-0.6, "targeting_egg":1.3},
+		{"id":10,	"name":"RedPuffer",	"color":"sprite","distance_detect":180.0,"distance_fatal":120.0,"speed_normal":20.0, "speed_fast":40.0, "speed_fastest":50.0, "acceleration":30.0,  "turn_cooldown":1.0, "turn_rate":0.2, "xp":800, "edible":1.0, "targeting_fish":0.1, "targeting_hiding_plant":0.0, "targeting_stinging_plant":-1.6, "targeting_egg":1.3, "angle_in_radians_of_vision_cone":4.8},
+		{"id":11,	"name":"Puffer",	"color":"sprite","distance_detect":180.0,"distance_fatal":120.0,"speed_normal":20.0, "speed_fast":40.0, "speed_fastest":50.0, "acceleration":30.0,  "turn_cooldown":1.0, "turn_rate":0.2, "xp":120, "edible":1.0, "targeting_fish":-0.2, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3, "angle_in_radians_of_vision_cone":5.0},
+		{"id":12,	"name":"Tadpole",	"color":"sprite","distance_detect":195.0,"distance_fatal":120.0,"speed_normal":20.0, "speed_fast":30.0, "speed_fastest":50.0, "acceleration":300.0, "turn_cooldown":1.0, "turn_rate":3.0, "xp":18,   "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3},
+		{"id":13,	"name":"Sticky",	"color":"sprite","distance_detect":295.0,"distance_fatal":120.0,"speed_normal":20.0, "speed_fast":60.0, "speed_fastest":90.0, "acceleration":10.0,  "turn_cooldown":0.1, "turn_rate":6.3, "xp":30,  "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3, "rate_fish_slow_down":0.7},
+		{"id":14,	"name":"Boatman",	"color":"sprite","distance_detect":180.0,"distance_fatal":120.0,"speed_normal":60.0,  "speed_fast":80.0, "speed_fastest":90.0, "acceleration":50.0,  "turn_cooldown":1.0, "turn_rate":0.5, "xp":35,  "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3},
+		{"id":15,	"name":"Teleport",	"color":"sprite","distance_detect":195.0,"distance_fatal":120.0,"speed_normal":70.0, "speed_fast":70.0, "speed_fastest":70.0, "acceleration":100.0,  "turn_cooldown":0.01, "turn_rate":2.0, "xp":600, "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3, "wave_motion_amplitude":0.035, "wave_motion_frequency":2.0, "teleport_cooldown_duration":5.0, "teleport_cast_duration":1.0 ,"teleport_reappearance_duration": 0.5},
+		{"id":16,	"name":"Shield",	"color":"sprite","distance_detect":225.0,"distance_fatal":150.0,"speed_normal":70.0, "speed_fast":90.0, "speed_fastest":85.0, "acceleration":94.0,  "turn_cooldown":1.0, "turn_rate":1.5, "xp":350, "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3},
+		{"id":17,	"name":"Leaf",		"color":"sprite","distance_detect":220.0,"distance_fatal":150.0,"speed_normal":20.0, "speed_fast":70.0, "speed_fastest":100.0,"acceleration":100.0, "turn_cooldown":1.0, "turn_rate":7.0, "xp":300, "edible":1.0, "targeting_fish":-0.3, "targeting_hiding_plant":0.9, "targeting_stinging_plant":-1.6, "targeting_egg":1.3},
+		{"id":18,	"name":"Goldie",	"color":"sprite","distance_detect":220.0,"distance_fatal":150.0,"speed_normal":20.0, "speed_fast":70.0, "speed_fastest":100.0,"acceleration":100.0, "turn_cooldown":1.0, "turn_rate":7.0, "xp":400, "edible":1.0, "targeting_fish":-0.3, "targeting_hiding_plant":-1.6, "targeting_stinging_plant":0.9, "targeting_egg":1.3},
+		{"id":19,	"name":"Angel",	 	"color":"sprite","distance_detect":80.0, "distance_fatal":70.0, "speed_normal":80.0, "speed_fast":250.0,"speed_fastest":400.0,"acceleration":3000.0,"turn_cooldown":1.0, "turn_rate":2.0, "xp":250, "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3},
+		{"id":20,	"name":"Froggy",	"color":"sprite","distance_detect":195.0,"distance_fatal":120.0,"speed_normal":50.0, "speed_fast":50.0, "speed_fastest":50.0, "acceleration":300.0, "turn_cooldown":0.05, "turn_rate":0.05, "xp":45,   "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3, "wave_motion_amplitude":0.2, "wave_motion_frequency":1.5},
+		{"id":21,	"name":"Snowflake",	"color":"sprite","distance_detect":295.0,"distance_fatal":80.0,"speed_normal":20.0, "speed_fast":60.0, "speed_fastest":300.0, "acceleration":200.0,  "turn_cooldown":0.01, "turn_rate":6.3, "xp":50,  "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3, "rate_fish_slow_down":0.85},
+		{"id":22,	"name":"Halo",	 	"color":"sprite","distance_detect":80.0, "distance_fatal":70.0, "speed_normal":80.0, "speed_fast":250.0,"speed_fastest":400.0,"acceleration":3000.0,"turn_cooldown":1.0, "turn_rate":2.0, "xp":500, "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3},
+		{"id":23,	"name":"Scarab",	"color":"sprite","distance_detect":180.0,"distance_fatal":120.0,"speed_normal":60.0,  "speed_fast":80.0, "speed_fastest":90.0, "acceleration":50.0,  "turn_cooldown":1.0, "turn_rate":0.5, "xp":900,  "edible":1.0, "targeting_fish":-0.8, "targeting_hiding_plant":0.1, "targeting_stinging_plant":-1.6, "targeting_egg":1.3, "angle_in_radians_of_vision_cone":2.75}
+	],
+	"rewards":{
+		"ascension": {"d_points": 1, "pearls": 1, "awakens": 1},
+		"patternCommonDefault": {"d_points": 5, "pearls": 5},
+		"patternRareDefault": {"d_points": 15, "pearls": 10},
+		"dragonCommonDefault": {"d_points": 30, "pearls": 10},
+		"dragonRareDefault": {"d_points": 90, "pearls": 20},
+		"patternDefault": {"d_points": 5, "pearls": 5},
+		"dragonDefault": {"d_points": 15, "pearls": 10},
+		"achievement1": {"pearls": 1},
+		"achievement2": {"pearls": 2},
+		"achievement3": {"pearls": 3},
+		"achievement4": {"pearls": 4},
+		"achievement5": {"pearls": 5},
+		"achievement10": {"pearls": 10},
+		"achievement20": {"pearls": 20},
+		"achievement30": {"pearls": 30},
+		"achievement40": {"pearls": 40},
+		"achievement50": {"pearls": 50},
+		"achievementDefault": {"pearls": 2},
+		"challengeN1": {"essence": 20},
+		"challengeN2": {"essence": 20},
+		"challengeN3": {"essence": 30},
+		"challengeN4": {"pearls": 4},
+		"challengeE1": {"pearls": 2},
+		"challengeE2": {"pearls": 2},
+		"challengeE3": {"pearls": 3},
+		"challengeE4": {"essence": 50}
+	},
+	"dailyAwakens":3,
+	"dailyLogin":[
+		{"type":"day", "prize":"boost_speed", 				"count":1, "image":"prizeBoostSpeed" },
+		{"type":"day", "prize":"pearls", 					"count":3, "image":"prizePearls3"},
+		{"type":"day", "prize":"boost_agility", 			"count":1, "image":"prizeBoostAgility"},
+		{"type":"day", "prize":"boost_speed", 				"count":1, "image":"prizeBoostSpeed"},
+		{"type":"day", "prize":"pearls", 					"count":2, "image":"prizePearls2"},
+		{"type":"day", "prize":"boost_speed_and_agility", 	"count":1, "image":"prizeBoostSpeedAndAgility"},
+		{"type":"week", "prize":"pearls", 					"count":10, "image":"prizePearls10"},
+		{"type":"week", "prize":"boost_speed_and_agility", 	"count":5, "image":"prizeBoostSpeedAndAgility5"},
+		{"type":"week", "prize":"pearls", 					"count":20, "image":"prizePearls20"},
+		{"type":"week", "prize":"missing_koi_colour", 		"count":1, "image":"prizeMissingKoiColour"},
+		{"type":"month", "prize":"koi",				 		"count":1, "pattern":88, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":89, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":90, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":91, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":92, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":93, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":94, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":95, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":96, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":97, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":98, "image":"prizeMysteryKoi"},
+		{"type":"month", "prize":"koi", 					"count":1, "pattern":99, "image":"prizeMysteryKoi"}
+	],
+	"collectorsKoi":[
+		{"pattern":42, "d_points":5},
+		{"pattern":61, "d_points":10},
+		{"pattern":43, "d_points":20},
+		{"pattern":65, "d_points":25},
+		{"pattern":64, "d_points":30},
+		{"pattern":66, "d_points":40},
+		{"pattern":67, "d_points":50},
+		{"pattern":41, "d_points":100},
+		{"pattern":59, "d_points":150},
+		{"pattern":69, "d_points":200},
+		{"pattern":60, "d_points":250},
+		{"pattern":71, "d_points":300},
+		{"pattern":70, "d_points":350},
+		{"pattern":157, "d_points":400},
+		{"pattern":158, "d_points":500},
+		{"pattern":159, "d_points":600},
+		{"pattern":63, "d_points":700}
+	],
+	"eventPondColors": {
+		"xHalloween": 	["#C1B3CE","#434859","#284C9D","#FFFFFF"],
+		"xDayOfTheDead":["#D1E9EE","#888895","#E1D97B","#32254A"],
+		"Christmas": 	["#3C65C7","#00779E","#42C7E1","#0056FF"],
+		"xNewYear": 	["#E1DCDD","#CA0030","#FFB80E","#F29EE9"],
+		"CNY": 			["#BFFFED","#2E609A","#38C7D4","#F776FF"],
+		"Valentines": 	["#BFFFED","#2E609A","#38C7D4","#F776FF"],
+		"Carnaval": 	["#90FFF7","#006376","#7FDB93","#1ECADA"],
+		"Sakura": 		["#D0D0D0","#5A91D2","#3DA7CA","#F09AEE"],
+		"PreEaster": 	["#FFFFFF","#20B697","#3F91E1","#EC9F4C"],
+		"PostEaster": 	["#FFFFFF","#20B697","#3F91E1","#EC9F4C"],
+		"xLantern": 	["#E3504D","#AB2447","#6D5C76","#C14F90"],
+		"Thanksgiving": ["#C98345","#9C1F1F","#345D80","#C5B49E"]
+	},
+	"color_override":
+	{
+		"30":
+		{
+			"base_color"			: [	"#C1B3CE","#434859","#284C9D","#FFFFFF"],
+			"spot_color"			: [	"#D1E9EE","#888895","#E1D97B","#32254A","#6664A7","#1475C8","#20BAC4","#F27CB9"],
+			"base_names"			: [	"Mu","Ku","Sei","Shi"],
+			"spot_names"			: [	"yuki","gurē","ukon","mura","sumi","burū","umi","pinku"]
+		},
+		"31":
+		{
+			"base_color"			: [	"#E1DCDD","#CA0030","#FFB80E","#F29EE9"],
+			"spot_color"			: [	"#FFFFFF","#FF0044","#FFEF42","#531833","#FF7200","#994A2E","#F17B91","#18A687"],
+			"base_names"			: [	"Ne","Aka","Orī","Ma"],
+			"spot_names"			: [	"shiro","marūn","ierō","sumi","kōji","katsu","pinku","mosu"]
+		},
+		"32":
+		{
+			"base_color"			: [	"#CCC2BA","#E3A563","#272626","#EA2D2D"],
+			"spot_color"			: [	"#E6DEDE","#000000","#AA0300","#FADA83","#628E94","#B77243","#1588D1","#773A8D"],
+			"base_names"			: [	"Ko","Cha","Ku","Ma"],
+			"spot_names"			: [	"shiro","kuro","dai","ukon","gurē","katsu","burū","papū"]
+		},
+		"40":
+		{
+			"base_color"			: [	"#E3504D","#AB2447","#6D5C76","#C14F90"],
+			"spot_color"			: [	"#E0024B","#F57BA3","#D5B560","#222128","#F5C8FC","#41B5CA","#7F124F","#5C0A90"],
+			"base_names"			: [	"Aka","Ma","Hai","Mu"],
+			"spot_names"			: [	"dai","pinku","ukon","kuro","ouka","usu","marūn","mura"]
+		},
+		"41": 
+		{
+			"base_color"			: [	"#5B8C17","#F2B705","#A62103","#14AC5F"],
+			"spot_color"			: [	"#B8D53D","#A5780E","#59C907","#FFFFFF","#590212","#224E62","#1D211C","#146F11"],
+			"base_names"			: [	"Ryo","Ki","Aka","Gu"],
+			"spot_names"			: [	"neon","ukon","mido","shiro","dai","nēbī","āmī","mosu"]
+		},
+		"42": 
+		{
+			"base_color"			: [	"#DD9673","#61342A","#C9690A","#B71E1A"],
+			"spot_color"			: [	"#FFF9F9","#FFAA00","#351B0A","#E63C54","#FFEAA7","#FF9FAB","#A3CC7A","#80CCB3"],
+			"base_names"			: [	"Bu","Cho","Ore","Ko"],
+			"spot_names"			: [	"shiro","ukon","katsu","pinku","ierō","cherī","mido","usu"]
+		},
+		"43": 
+		{
+			"base_color"			: [	"#E4CCA4","#90D64C","#3DCCEB","#7A5EB9"],
+			"spot_color"			: [	"#B33333","#FFDE03","#C19A56","#F5F6F6","#3E2FC9","#A686EC","#8BF7E3","#38914E"],
+			"base_names"			: [	"Orī","Ryo","Ao","Mu"],
+			"spot_names"			: [	"dai","ukon","sairo","shiro","sumi","papū","umi","mido"]
+		},
+		"44": 
+		{
+			"base_color"			: [	"#FFFDFE","#280C0B","#52A432","#27A9CA"],
+			"spot_color"			: [	"#E83939","#FBCC28","#703918","#D9C6B0","#9AE672","#B68AFF","#FF708F","#8C1636"],
+			"base_names"			: [	"Shi","Ku","Ryo","Ao"],
+			"spot_names"			: [	"dai","ukon","katsu","sairo","macha","papū","pinku","marūn"]
+		},
+		"45": 
+		{
+			"base_color"			: [	"#FF88BD","#ACD4C9","#1C5D78","#CAA387"],
+			"spot_color"			: [	"#F4EAE9","#EAE178","#2D303A","#E06D3A","#D1558C","#4597D0","#689C6B","#896FC4"],
+			"base_names"			: [	"Ma","Sei","Ao","Ori"],
+			"spot_names"			: [	"shiro","ukon","burū","kōji","pinku","usu","mido","papū"]
+		},
+		"46": 
+		{
+			"base_color"			: [	"#FFFFFF","#EECC2C","#437BD0","#DF511F"],
+			"spot_color"			: [	"#B70909","#FFDE02","#28A6FF","#EE730F","#94CD57","#18C3B5","#E9289F","#4843D9"],
+			"base_names"			: [	"Shi","Ki","Ao","Ore"],
+			"spot_names"			: [	"dai","ukon","usu","kōji","macha","umi","maze","mura"]
+		},
+		"47":
+		{
+			"base_color"			: [	"#C30000","#125FED","#19C12F","#FFF000"],
+			"spot_color"			: [	"#FF284D","#D2BC03","#36363A","#FFFFFF","#FF8400","#1F9753","#5DD1FF","#E158AC"],
+			"base_names"			: [	"Aka","Ao","Ryo","Ki"],
+			"spot_names"			: [	"dai","ukon","kuro","shiro","kōji","mido","burū","pinku"]
+		},
+		"48":
+		{
+			"base_color"			: [	"#93050C","#C9DAD1","#4E4199","#232227"],
+			"spot_color"			: [	"#FDFB3B","#5970E5","#F41A3C","#F06917","#58D4C7","#76C12B","#CF57FB","#FF81B9"],
+			"base_names"			: [	"Aka","Shi","Ao","Ku"],
+			"spot_names"			: [	"ukon","usu","dai","kōji","umi","mido","mura","pinku"]
+		},
+		"49":
+		{
+			"base_color"			: [	"#0CA1EE","#13A4BA","#094552","#2D328D"],
+			"spot_color"			: [	"#11C3DD","#E1F3F9","#1B0D58","#7115B1","#0CD28E","#A06DC6","#96E862","#D95B89"],
+			"base_names"			: [	"Bu","Sei","Ai","Ao"],
+			"spot_names"			: [	"usu","yuki","burū","mura","mido","papū","macha","pinku"]
+		},
+		"50":
+		{
+			"base_color"			: [	"#E0ECF8","#000058","#D32497","#237191"],
+			"spot_color"			: [	"#27B3FF","#0B4ECF","#5835E9","#2F2F70","#A40FCF","#B1A4F3","#74EBB7","#9BC0C8"],
+			"base_names"			: [	"Shi","Ao","Ma","Ai"],
+			"spot_names"			: [	"usu","burū","sumi","nēbī","mura","papū","neon","gurē"]
+		},
+		"51":
+		{
+			"base_color"			: [	"#B3A03C","#6D9E5C","#82BFBE","#B2A680"],
+			"spot_color"			: [	"#FFFFFF","#FFD800","#966326","#201502","#D0E77F","#68E4AE","#4E7530","#8C2648"],
+			"base_names"			: [	"Cha","Ryo","Ao","Orī"],
+			"spot_names"			: [	"shiro","ukon","sairo","katsu","mido","minto","mosu","dai"]
+		},
+		"52":
+		{
+			"base_color"			: [	"#F38627","#724270","#2D3059","#8C1C04"],
+			"spot_color"			: [	"#FEEA3B","#EA2309","#B7540B","#D9C6C6","#578F67","#4B70BA","#051B30","#9748AB"],
+			"base_names"			: [	"Ore","Mu","Ao","Aka"],
+			"spot_names"			: [	"ukon","dai","kōji","gin","mido","sairo","burū","mura"]
+		},
+		"53":
+		{
+			"base_color"			: [	"#43C99E","#65BB00","#03677C","#404038"],
+			"spot_color"			: [	"#D14519","#F2D230","#955D06","#1E2E13","#D2FAB8","#59DC19","#5C9413","#118DB0"],
+			"base_names"			: [	"Sei","Ryo","Gu","Ku"],
+			"spot_names"			: [	"kōji","ukon","katsu","mosu","shiro","mido","macha","burū"]
+		},
+		"54":
+		{
+			"base_color"			: [	"#FAEEFF","#737065","#B256A1","#46265F"],
+			"spot_color"			: [	"#E4335D","#FFFFFF","#212526","#DEB306","#A7975E","#369E5D","#FC86E2","#AA098B"],
+			"base_names"			: [	"Shi","Ku","Ma","Mu"],
+			"spot_names"			: [	"dai","shiro","kuro","ukon","sairo","mido","pinku","sumi"]
+		},
+		"55":
+		{
+			"base_color"			: [	"#E6E6E6","#29282B","#D48A0D","#003E94"],
+			"spot_color"			: [	"#C3325B","#FFFFFF","#C9380E","#151414","#EBB244","#8060DB","#1A68B9","#925C00"],
+			"base_names"			: [	"Shi","Ku","Cho","Ao"],
+			"spot_names"			: [	"maze","shiro","kōji","kuro","ukon","mura","burū","katsu"]
+		},
+		"56":
+		{
+			"base_color"			: [	"#FED120","#EEEBDD","#3E978B","#2C4598"],
+			"spot_color"			: [	"#000729","#DEAC24","#EB6C05","#C8D1D9","#00B9E7","#78C378","#FF004E","#7D3CAB"],
+			"base_names"			: [	"Ki","Shi","Gu","Bu"],
+			"spot_names"			: [	"kura","ukon","kōji","gin","umi","mido","ouka","mura"]
+		},
+		"57":
+		{
+			"base_color"			: [	"#8BD9CA","#69482D","#D0893C","#225B33"],
+			"spot_color"			: [	"#DBCDC3","#DEB90C","#A45A32","#492E2A","#B6E452","#64AE2D","#0D7E72","#FF600A"],
+			"base_names"			: [	"Ao","Cho","Ko","Ryo"],
+			"spot_names"			: [	"shiro","ukon","katsu","sairo","mido","macha","usu","kōji"]
+		},
+		"58":
+		{
+			"base_color"			: [	"#2E2010","#AA9A79","#8E292E","#528181"],
+			"spot_color"			: [	"#DBDED4","#424242","#DEA565","#B2363C","#09AAAA","#A6C64F","#86511D","#C67171"],
+			"base_names"			: [	"Cho","Ne","Ma","Sei"],
+			"spot_names"			: [	"shiro","gurē","ukon","marūn","usu","mido","katsu","pinku"]
+		},
+		"59":
+		{
+			"base_color"			: [	"#FFFFFF","#273743","#71398E","#6FBB45"],
+			"spot_color"			: [	"#D50F2B","#00001D","#DED4D4","#D67E1F","#F9649E","#B0CC2B","#9E71DC","#F7C9F5"],
+			"base_names"			: [	"Shi","Ku","Mu","Ryo"],
+			"spot_names"			: [	"dai","kuro","gin","kōji","pinku","mido","papū","cherī"]
+		},
+		"60":
+		{
+			"base_color"			: [	"#FFFFFF","#000000","#06B7BD","#FFCC00"],
+			"spot_color"			: [	"#DEDEDE","#BE4248","#56575E","#D48C00","#4A89AA","#F13EA2","#0DE3CF","#8747D6"],
+			"base_names"			: [	"Shi","Ku","Ai","Ki"],
+			"spot_names"			: [	"shiro","marūn","gurē","kōji","usu","pinku","umi","mura"]
+		},
+		"61":
+		{
+			"base_color"			: [	"#F4DFC7","#228465","#B20D0D","#E3B95D"],
+			"spot_color"			: [	"#E72017","#D9A321","#FFFFFF","#8A0600","#377555","#60A3B6","#C054B7","#FB5179"],
+			"base_names"			: [	"Ori","Ryo","Aka","Ki"],
+			"spot_names"			: [	"dai","ukon","ori","marūn","mido","usu","mura","pinku"]
+		},
+		"62":
+		{
+			"base_color"			: [	"#98C421","#006B28","#B73300","#F42B51"],
+			"spot_color"			: [	"#CC231E","#FAD155","#EF7508","#FFFFDB","#A99A54","#0F9B53","#30520E","#094273"],
+			"base_names"			: [	"Gu","Ryo","Ore","Ma"],
+			"spot_names"			: [	"dai","ukon","kōji","shiro","sairo","mido","mosu","burū"]
+		},
+		"63":
+		{
+			"base_color"			: [	"#E8CFD3","#FFAE06","#FD83B8","#88C0D7"],
+			"spot_color"			: [	"#DE051A","#996800","#FFFFFF","#F0E008","#0443C0","#9B1EAC","#05A6E9","#F858DC"],
+			"base_names"			: [	"Ne","Ki","Ma","Ai"],
+			"spot_names"			: [	"dai","katsu","shiro","ukon","usu","mura","umi","pinku"]
+		},
+		"64":
+		{
+			"base_color"			: [	"#E4CFD5","#FA85B6","#7C4C9B","#BD1641"],
+			"spot_color"			: [	"#FF002E","#F2A35D","#F3EAEA","#A75656","#590C88","#F6599B","#F21DF3","#579ECF"],
+			"base_names"			: [	"Shi","Ma","Mu","Aka"],
+			"spot_names"			: [	"dai","kōji","yuki","marūn","papū","cherī","maze","umi"]
+		},
+		"65":
+		{
+			"base_color"			: [	"#C21818","#ECBC3F","#F5A4DD","#394475"],
+			"spot_color"			: [	"#FFF7F6","#FF004E","#FF6C00","#EBE787","#A76FB5","#14AB86","#F65EB2","#1ABBDE"],
+			"base_names"			: [	"Aka","Ki","Ma","Bu"],
+			"spot_names"			: [	"shiro","dai","kōji","ukon","sumi","mosu","pinku","umi"]
+		},
+		"66":
+		{
+			"base_color"			: [	"#FFFAF6","#BC8452","#5BBED1","#848484"],
+			"spot_color"			: [	"#E5CEC1","#FBBF6E","#F0535E","#6A5B5B","#9AE3F1","#EFA3A6","#A7CEA2","#E09A70"],
+			"base_names"			: [	"Shi","Cho","Sei","Ku"],
+			"spot_names"			: [	"gin","kōji","dai","gurē","usu","cherī","macha","sairo"]
+		},
+		"67":
+		{
+			"base_color"			: [	"#DDD4E1","#169CE9","#3A9266","#FE943E"],
+			"spot_color"			: [	"#FFFFFF","#E75256","#FFDA0F","#83413F","#6BCDF1","#8155BE","#EB58B2","#2AC187"],
+			"base_names"			: [	"Shi","Ao","Ryo","Ore"],
+			"spot_names"			: [	"shiro","dai","ukon","koshō","umi","mura","pinku","mido"]
+		},
+		"68":
+		{
+			"base_color"			: [	"#F0E8F2","#E13B68","#8056A8","#FF6FC7"],
+			"spot_color"			: [	"#BED1EC","#BF1C1C","#F3C6A3","#8E6186","#FFA2B9","#D914BF","#542FB2","#4BCBE8"],
+			"base_names"			: [	"Shi","Aka","Mu","Ma"],
+			"spot_names"			: [	"gin","dai","ierō","sumi","pinku","maze","mura","burū"]
+		},
+		"69":
+		{
+			"base_color"			: [	"#FFFFFF","#FFD65A","#8268CD","#50A2C1"],
+			"spot_color"			: [	"#FCE8D3","#445076","#CEAD4B","#EA931A","#86CFC6","#40C7FF","#3059DA","#B785B8"],
+			"base_names"			: [	"Shi","Ki","Mu","Sei"],
+			"spot_names"			: [	"gin","gurē","sairo","kōji","usu","umi","burū","sumi"]
+		},
+		"70":
+		{
+			"base_color"			: [	"#DFEDFF","#2E528C","#209C9B","#5985B7"],
+			"spot_color"			: [	"#FFFFFF","#88BBFF","#61CDE0","#DB3875","#1A3960","#00C585","#3369EB","#AF90FC"],
+			"base_names"			: [	"Shi","Bu","Ryo","Ao"],
+			"spot_names"			: [	"shiro","usu","umi","ouka","kura","mido","burū","mura"]
+		},
+		"71":
+		{
+			"base_color"			: [	"#D8B8AC","#73472C","#BD2022","#474040"],
+			"spot_color"			: [	"#FFAA1C","#FBF3D7","#99583D","#411400","#7B8538","#4E776A","#B8AE00","#FF5B18"],
+			"base_names"			: [	"Ne","Cho","Aka","Ku"],
+			"spot_names"			: [	"ukon","gin","sairo","koshō","mido","mosu","macha","kōji"]
+		},
+		"72":
+		{
+			"base_color"			: [	"#CDCFD3","#0A75A8","#283349","#63B1C5"],
+			"spot_color"			: [	"#000000","#EAEAEA","#CFB47A","#848B93","#049DD1","#255E79","#4D8967","#95339E"],
+			"base_names"			: [	"Shi","Ao","Ku","Ai"],
+			"spot_names"			: [	"kuro","shiro","koshō","gin","burū","usu","mosu","sumi"]
+		},
+		"73":
+		{
+			"base_color"			: [	"#96979D","#262626","#14755A","#9B5DBF"],
+			"spot_color"			: [	"#D6EFF9","#3C4241","#CBAE38","#0D9A78","#26D5C4","#643D77","#7BC6E5","#0A4D86"],
+			"base_names"			: [	"Ne","Ku","Ryo","Ma"],
+			"spot_names"			: [	"yuki","kuro","ukon","mido","umi","mura","burū","usu"]
+		},
+		"74":
+		{
+			"base_color"			: [	"#D1CCCA","#B159AA","#609BEB","#1E1F1F"],
+			"spot_color"			: [	"#FFFFFF","#93A6BF","#C0A87B","#303737","#1C6F97","#5E4177","#9A436C","#602B2B"],
+			"base_names"			: [	"Shi","Mu","Sei","Ku"],
+			"spot_names"			: [	"shiro","gin","koshō","gurē","usu","mura","ouka","sairo"]
+		},
+		"75":
+		{
+			"base_color"			: [	"#BC8452","#A0CD60","#6E300D","#059348"],
+			"spot_color"			: [	"#B31601","#E9ED9E","#FFC600","#934A11","#6FB30F","#FE821D","#766698","#204959"],
+			"base_names"			: [	"Bu","Ryo","Cho","Gu"],
+			"spot_names"			: [	"dai","ierō","ukon","katsu","mido","kōji","sumi","burū"]
+		},
+		"76":
+		{
+			"base_color"			: [	"#E0CFDC","#F29005","#E22C23","#F0DA46"],
+			"spot_color"			: [	"#B51616","#E7B634","#F26416","#392E2E","#DF51B2","#66BB6B","#1C5AD3","#8954AA"],
+			"base_names"			: [	"Ne","Ore","Ma","Ki"],
+			"spot_names"			: [	"dai","ierō","kōji","kuro","pinku","macha","burū","mura"]
+		},
+		"77":
+		{
+			"base_color"			: [	"#86C5D2","#D29DF2","#8163C5","#5082E6"],
+			"spot_color"			: [	"#E2FBFF","#E5C77E","#2C3B59","#A78A8E","#3455AB","#13C8CA","#D36FE9","#5F41C0"],
+			"base_names"			: [	"Sei","Ma","Mu","Ao"],
+			"spot_names"			: [	"yuki","ierō","kura","sairo","burū","umi","ouka","papū"]
+		},
+		"78":
+		{
+			"base_color"			: [	"#AB0E2B","#18776F","#5F668F","#2D2323"],
+			"spot_color"			: [	"#FC3636","#E4FF00","#010000","#F2F2F2","#FF9F09","#63F7BD","#9D90FF","#02B2BD"],
+			"base_names"			: [	"Aka","Ryo","Mu","Ku"],
+			"spot_names"			: [	"dai","ukon","kuro","shiro","kōji","usu","sumi","umi"]
+		},
+		"79":
+		{
+			"base_color"			: [	"#EBD9A4","#4E3621","#8F7D3F","#428A7E"],
+			"spot_color"			: [	"#FEF8E7","#EBC333","#DD431D","#131313","#7FBC45","#60AAAC","#7C5C32","#853F70"],
+			"base_names"			: [	"Ne","Cho","Bu","Gu"],
+			"spot_names"			: [	"shiro","ierō","kōji","kuro","macha","usu","koshō","mura"]
+		},
+		"80":
+		{
+			"base_color"			: [	"#C0AC88","#442911","#EE9C34","#C94D10"],
+			"spot_color"			: [	"#A10000","#D48622","#F8D4AB","#181818","#3E7581","#993701","#942B4E","#FF6000"],
+			"base_names"			: [	"Ne","Cho","Orī","Ore"],
+			"spot_names"			: [	"dai","ukon","shiro","kuro","usu","katsu","sumi","kōji"]
+		},
+		"81":
+		{
+			"base_color"			: [	"#F7DDAE","#AD758E","#B4BD8B","#577089"],
+			"spot_color"			: [	"#EF8266","#FFAB42","#B6D4C9","#958F8F","#8A9F69","#AE92BD","#5499B6","#FF8B94"],
+			"base_names"			: [	"Ki","Mu","Gu","Bu"],
+			"spot_names"			: [	"marūn","kōji","usu","gurē","mosu","papū","burū","cherī"]
+		},
+		"82":
+		{
+			"base_color"			: [	"#70C4EB","#271F3D","#29B3A3","#FC85C6"],
+			"spot_color"			: [	"#636060","#E03463","#BB541E","#FFFFFF","#FEE38F","#84F6D0","#6678D6","#D331DD"],
+			"base_names"			: [	"Ao","Ku","Ryo","Ma"],
+			"spot_names"			: [	"kura","ouka","katsu","shiro","ukon","usu","mura","sumi"]
+		},
+		"83":
+		{
+			"base_color"			: [	"#B8A787","#302723","#FEA23C","#F6EBF5"],
+			"spot_color"			: [	"#C33240","#4D4A41","#A55540","#938163","#F5C691","#688D65","#3B7988","#C4838F"],
+			"base_names"			: [	"Cho","Ku","Ore","Ne"],
+			"spot_names"			: [	"dai","kura","sairo","gurē","ukon","macha","burū","ouka"]
+		},
+		"84":
+		{
+			"base_color"			: [	"#B7A691","#689F6B","#70554E","#30871C"],
+			"spot_color"			: [	"#DEC3A9","#8C162C","#F8AB5E","#553D37","#F6DB5C","#CB6C27","#9CCD5C","#375A0B"],
+			"base_names"			: [	"Cho","Ryo","Ko","Gu"],
+			"spot_names"			: [	"gin","dai","ukon","koshō","ierō","kōji","mido","mosu"]
+		},
+		"85":
+		{
+			"base_color"			: [	"#E5C7AA","#F7951D","#CBA83C","#8C332B"],
+			"spot_color"			: [	"#F41111","#BF8036","#E8E7BE","#400601","#F556AC","#4A73B7","#88A3A1","#9A7ACE"],
+			"base_names"			: [	"Cha","Ore","Ki","Cho"],
+			"spot_names"			: [	"dai","ierō","shiro","sairo","maze","usu","gurē","papū"]
+		},
+		"86":
+		{
+			"base_color"			: [	"#B5CC4B","#2B343C","#31BBCB","#E53E75"],
+			"spot_color"			: [	"#E7DCDC","#161609","#A69B33","#604332","#2E7787","#6CCAC4","#4A9B6C","#2A4AF1"],
+			"base_names"			: [	"Ryo","Ku","Ai","Ma"],
+			"spot_names"			: [	"shiro","kuro","mido","koshō","burū","umi","macha","mura"]
+		},
+		"87":
+		{
+			"base_color"			: [	"#C4A45E","#850600","#4A9772","#1E3741"],
+			"spot_color"			: [	"#D3D6D9","#161616","#E7B352","#88390B","#5C4895","#846932","#45788C","#62B426"],
+			"base_names"			: [	"Ko","Cho","Ryo","Ku"],
+			"spot_names"			: [	"yuki","kuro","sairo","katsu","mura","koshō","usu","mosu"]
+		},
+		"88":
+		{
+			"base_color"			: [	"#DFDBE3","#241F1F","#B6A589","#5B9BC4"],
+			"spot_color"			: [	"#000000","#FFFFFF","#BA4AC7","#EFAF23","#335EA1","#947250","#36CDCB","#593B83"],
+			"base_names"			: [	"Shi","Ku","Orī","Hai"],
+			"spot_names"			: [	"kuro","shiro","kura","ukon","burū","sairo","usu","mura"]
+		},
+		"89":
+		{
+			"base_color"			: [	"#676AC2","#FF8A2E","#367C51","#BFA518"],
+			"spot_color"			: [	"#112743","#f25C84","#CFEAFF","#FFC603","#05C1C4","#5E00E8","#7EC678","#DB52F4"],
+			"base_names"			: [	"Mu","Ore","Ryo","Ki"],
+			"spot_names"			: [	"burū","pinku","shiro","ukon","usu","sumi","mura","maze"]
+		},
+		"90":
+		{
+			"base_color"			: [	"#FFD75B","#48D7E8","#ECAFED","#424240"],
+			"spot_color"			: [	"#FF0C0E","#000000","#D6FFF5","#7C726F","#F5EB44","#FF7800","#ED46CC","#56A94B"],
+			"base_names"			: [	"Ki","Ao","Ma","Ku"],
+			"spot_names"			: [	"dai","kuro","yuki","gurē","ukon","kōji","pinku","mido"]
+		},
+		"91":
+		{
+			"base_color"			: [	"#CFB39C","#516373","#A46414","#50392B"],
+			"spot_color"			: [	"#D5D5C2","#EDBD3D","#C03124","#D19255","#275C8B","#9D876A","#4E1B16","#99888E"],
+			"base_names"			: [	"Ne","Ku","Ko","Cho"],
+			"spot_names"			: [	"shiro","ierō","dai","katsu","burū","koshō","sairo","gurē"]
+		},
+		"92":
+		{
+			"base_color"			: [	"#40A461","#3F6F77","#95A2AB","#5F5EA4"],
+			"spot_color"			: [	"#FFFFFF","#181818","#E61E1E","#FFF71D","#15F9D8","#1512FE","#48FF00","#C428FE"],
+			"base_names"			: [	"Ryo","Gu","Ku","Mu"],
+			"spot_names"			: [	"shiro","kuro","dai","ukon","umi","burū","mido","papū"]
+		},
+		"93":
+		{
+			"base_color"			: [	"#F2636F","#0A6199","#FA6717","#38755D"],
+			"spot_color"			: [	"#C91839","#F2B4CD","#E2C840","#0D0000","#0EC0C0","#895DC2","#50B255","#06B6FF"],
+			"base_names"			: [	"Ma","Sei","Ore","Gu"],
+			"spot_names"			: [	"marūn","cherī","ierō","kuro","usu","sumi","mosu","umi"]
+		},
+		"94":
+		{
+			"base_color"			: [	"#F2F2F2","#21304F","#5A82D3","#A952A0"],
+			"spot_color"			: [	"#B7A9A9","#F2B705","#D16B6B","#000000","#0084FF","#684296","#7CC7B8","#07D7E4"],
+			"base_names"			: [	"Shi","Ku","Bu","Mu"],
+			"spot_names"			: [	"gin","ierō","cherī","kuro","burū","mura","mido","umi"]
+		},
+		"95":
+		{
+			"base_color"			: [	"#559BAC","#B3B9BD","#767276","#1A1A1A"],
+			"spot_color"			: [	"#D7DADB","#C4282D","#433737","#E6D561","#A9ED16","#00D6DD","#00DD7D","#BB84D7"],
+			"base_names"			: [	"Sei","Shi","Ne","Ku"],
+			"spot_names"			: [	"shiro","dai","koshō","ierō","mido","umi","macha","sumi"]
+		},
+		"96":
+		{
+			"base_color"			: [	"#E4D7D7","#516073","#FFF000","#CA1717"],
+			"spot_color"			: [	"#A7A79E","#2C1F1B","#FD2E2E","#EA6F01","#F265A3","#BA56E4","#7ABF7F","#5D92D6"],
+			"base_names"			: [	"Shi","Ne","Ki","Aka"],
+			"spot_names"			: [	"gin","kuro","dai","kōji","pinku","mura","mido","burū"]
+		},
+		"97":
+		{
+			"base_color"			: [	"#FFFFFF","#58BAF2","#F8B029","#433E68"],
+			"spot_color"			: [	"#E9E9E9","#E13940","#F5CD62","#312626","#804895","#4482C8","#4D973F","#E96F92"],
+			"base_names"			: [	"Shi","Bu","Cha","Mu"],
+			"spot_names"			: [	"shiro","dai","ierō","kura","mura","burū","mosu","cherī"]
+		},
+		"98":
+		{
+			"base_color"			: [	"#9CC0BB","#84BC38","#4D5152","#22765B"],
+			"spot_color"			: [	"#CFE7E4","#292A2A","#D9DB1B","#9F5F30","#2495FF","#1C9052","#8222B9","#36E7AF"],
+			"base_names"			: [	"Ai","Ryo","Ku","Gu"],
+			"spot_names"			: [	"yuki","kuro","ukon","katsu","usu","mido","mura","umi"]
+		},
+		"99":
+		{
+			"base_color"			: [	"#8BA8B7","#273743","#AE9B78","#4D8BA0"],
+			"spot_color"			: [	"#E7D4C9","#565C78","#191919","#842B2B","#96CD6D","#C729A0","#FFD04E","#DF6679"],
+			"base_names"			: [	"Ne","Ku","Ko","Sei"],
+			"spot_names"			: [	"gin","gurē","kuro","koshō","macha","maze","ukon","cherī"]
+		},
+		"100":
+		{
+			"base_color"			: [	"#BEE1EE","#565656","#A8C6AD","#E02044"],
+			"spot_color"			: [	"#FFFFFF","#F2DE9F","#ED4968","#35353D","#E297D1","#64BDEB","#79B79C","#8173EC"],
+			"base_names"			: [	"Ai","Ku","Gu","Aka"],
+			"spot_names"			: [	"shiro","ierō","marūn","kuro","pinku","umi","mido","mura"]
+		},
+		"101":
+		{
+			"base_color"			: [	"#F6B3C0","#A1CA6F","#26874D","#2FCCA1"],
+			"spot_color"			: [	"#FFFFFF","#FFEE90","#F0A348","#1A5417","#5AE2BC","#F47E94","#A3E651","#60960F"],
+			"base_names"			: [	"Ma","Ryo","Gu","Ai"],
+			"spot_names"			: [	"shiro","ukon","kōji","mosu","umi","pinku","mido","macha"]
+		},
+		"102":
+		{
+			"base_color"			: [	"#C0BBBB","#1F3240","#7474A2","#B1609D"],
+			"spot_color"			: [	"#FFFFFF","#EEC786","#F8B58D","#AA1C1B","#47AE9E","#6C2E62","#C28FEE","#5B3DB1"],
+			"base_names"			: [	"Ne","Ku","Mu","Ma"],
+			"spot_names"			: [	"shiro","ierō","kōji","dai","usu","papū","sumi","mura"]
+		},
+		"103":
+		{
+			"base_color"			: [	"#E34A3A","#EE7E3F","#988432","#92655E"],
+			"spot_color"			: [	"#A62205","#FFB74B","#FF6200","#D7A79B","#534F0C","#007179","#B7AE4D","#3D2D1D"],
+			"base_names"			: [	"Ma","Ore","Ryo","Cho"],
+			"spot_names"			: [	"dai","ukon","kōji","cherī","mosu","usu","macha","koshō"]
+		},
+		"104":
+		{
+			"base_color"			: [	"#FFFFFF","#3E464D","#B68E48","#4839A3"],
+			"spot_color"			: [	"#BF0C2B","#010919","#D0D0D0","#FCC82B","#14B378","#2795D6","#FF8F00","#E23A99"],
+			"base_names"			: [	"Shi","Ku","Ko","Mu"],
+			"spot_names"			: [	"dai","kuro","gin","ukon","macha","umi","kōji","ouka"]
+		},
+		"105":
+		{
+			"base_color"			: [	"#3A857E","#18242E","#97784B","#D9BC9A"],
+			"spot_color"			: [	"#7A2A1F","#FBF1EE","#D1823D","#253E53","#71A658","#84C8D6","#FFEA00","#6B427B"],
+			"base_names"			: [	"Gu","Ku","Cho","Ko"],
+			"spot_names"			: [	"sairo","shiro","katsu","gurē","macha","umi","ukon","mura"]
+		},
+		"106":
+		{
+			"base_color"			: [	"#A5DDE0","#0AB8F1","#01E2B5","#092C9C"],
+			"spot_color"			: [	"#F2F3F5","#6C6C71","#007CE2","#027368","#C8D641","#6B02CD","#07099C","#00FCFF"],
+			"base_names"			: [	"Ai","Sei","Ao","Bu"],
+			"spot_names"			: [	"shiro","gurē","usu","mosu","mido","mura","burū","umi"]
+		},
+		"107":
+		{
+			"base_color"			: [	"#7B3B9E","#005461","#6E4514","#FF752C"],
+			"spot_color"			: [	"#C5D0D9","#4D2359","#AA7800","#EC9716","#2AA897","#B860E5","#0E7AB8","#3C7728"],
+			"base_names"			: [	"Mu","Gu","Cho","Ore"],
+			"spot_names"			: [	"gin","mura","katsu","ukon","mido","sumi","burū","macha"]
+		},
+		"108":
+		{
+			"base_color"			: [	"#9FCEDC","#2B374A","#225894","#F0BC6B"],
+			"spot_color"			: [	"#FFEADE","#10282E","#6E5330","#D9645A","#377C5F","#51CEE9","#3F88C1","#CE9D72"],
+			"base_names"			: [	"Ne","Ku","Bu","Ki"],
+			"spot_names"			: [	"shiro","kura","katsu","cherī","mosu","umi","usu","sairo"]
+		},
+		"109":
+		{
+			"base_color"			: [	"#262626","#70635B","#025E73","#DCB28D"],
+			"spot_color"			: [	"#EEDBC6","#7F7F7F","#AC0E00","#AE7757","#003E4C","#A6C44C","#F2811D","#76A6A1"],
+			"base_names"			: [	"Ku","Ne","Gu","Ko"],
+			"spot_names"			: [	"shiro","gurē","dai","sairo","mosu","macha","kōji","gin"]
+		},
+		"110":
+		{
+			"base_color"			: [	"#8F929D","#686ABE","#5F3131","#007C76"],
+			"spot_color"			: [	"#F2F2F2","#A4A4A4","#A15B56","#BA9F63","#8B3EB6","#1B9A6B","#39D0D4","#2E0E31"],
+			"base_names"			: [	"Ne","Mu","Cho","Ryo"],
+			"spot_names"			: [	"shiro","gin","sairo","katsu","papū","mido","umi","mura"]
+		},
+		"111":
+		{
+			"base_color"			: [	"#96143F","#D3FFF8","#30337B","#181818"],
+			"spot_color"			: [	"#C5C2C0","#C84582","#EAB97E","#310606","#7E71B5","#78D7FF","#00B9C5","#4A7561"],
+			"base_names"			: [	"Ma","Shi","Mu","Ku"],
+			"spot_names"			: [	"gin","maze","ukon","koshō","mura","umi","burū","mosu"]
+		},
+		"112":
+		{
+			"base_color"			: [	"#FAF6DB","#E4AE4A","#616763","#D48492"],
+			"spot_color"			: [	"#FFFFFF","#384548","#EBD751","#D45268","#417E91","#B0C072","#A07DAB","#69C2C3"],
+			"base_names"			: [	"Shi","Cha","Ku","Ma"],
+			"spot_names"			: [	"shiro","gurē","ukon","maze","mosu","macha","sumi","usu"]
+		},
+		"113":
+		{
+			"base_color"			: [	"#D82C21","#98CC33","#2767BD","#371F42"],
+			"spot_color"			: [	"#B30A00","#FF9000","#FFFD6D","#5EB11B","#3E51CC","#75AFFF","#C34DAE","#53276A"],
+			"base_names"			: [	"Aka","Ryo","Bu","Mu"],
+			"spot_names"			: [	"dai","kōji","ierō","mido","mura","umi","ouka","papū"]
+		},
+		"114":
+		{
+			"base_color"			: [	"#8AA3D9","#01A6EF","#5140CB","#04254F"],
+			"spot_color"			: [	"#FFFFFF","#7279A5","#020C29","#F0D477","#15EAFF","#F079F2","#6022D6","#1F68EC"],
+			"base_names"			: [	"Ne","Ao","Mu","Ku"],
+			"spot_names"			: [	"shiro","gin","kura","ukon","umi","cherī","mura","burū"]
+		},
+		"115":
+		{
+			"base_color"			: [	"#E0E0E0","#343434","#867C70","#4EB1BA"],
+			"spot_color"			: [	"#F8F8F8","#121212","#A3A3A3","#BE9268","#95CFBB","#E49B93","#416888","#6E5A81"],
+			"base_names"			: [	"Ne","Ku","Gu","Sei"],
+			"spot_names"			: [	"shiro","kuro","gurē","sairo","umi","pinku","āmī","papū"]
+		},
+		"116":
+		{
+			"base_color"			: [	"#B7C0E7","#AE8CCA","#4467E1","#58865B"],
+			"spot_color"			: [	"#FFFFFF","#A3A4A4","#3A384B","#8FA2EB","#2CA2D9","#2647C2","#3CA770","#8033D2"],
+			"base_names"			: [	"Ne","Mu","Ai","Ryo"],
+			"spot_names"			: [	"shiro","gurē","kuro","sumi","usu","burū","mosu","mura"]
+		},
+		"117":
+		{
+			"base_color"			: [	"#E0E0EC","#D40D12","#F79EB7","#3D1F27"],
+			"spot_color"			: [	"#FFFBFE","#FF4C4C","#293843","#BB9646","#F077A2","#19C0CF","#FF40CB","#99467A"],
+			"base_names"			: [	"Ne","Aka","Ma","Ku"],
+			"spot_names"			: [	"shiro","dai","kuro","katsu","cherī","umi","ouka","maze"]
+		},
+		"118":
+		{
+			"base_color"			: [	"#393335","#2D57C3","#D9CFC7","#997C7C"],
+			"spot_color"			: [	"#F3F3F3","#A2A2A2","#BA5923","#220402","#0FA0D7","#1D42AB","#487F8B","#759BFF"],
+			"base_names"			: [	"Ku","Sei","Shi","Ne"],
+			"spot_names"			: [	"shiro","gurē","katsu","koshō","umi","burū","mosu","usu"]
+		},
+		"119":
+		{
+			"base_color"			: [	"#D90909","#FF8227","#FFC960","#2946CB"],
+			"spot_color"			: [	"#FFFFFF","#FF1414","#FEA700","#7D001D","#F74C8C","#509CE4","#AE824D","#072BA2"],
+			"base_names"			: [	"Aka","Ore","Ki","Bu"],
+			"spot_names"			: [	"shiro","dai","kōji","marūn","pinku","umi","sairo","burū"]
+		},
+		"120":
+		{
+			"base_color"			: [	"#AFD1E9","#5CC1F5","#273088","#E1AE9F"],
+			"spot_color"			: [	"#C7EAED","#4C6D96","#F3E17D","#938065","#1E83FF","#483FFD","#35F3F1","#1D1D44"],
+			"base_names"			: [	"Ne","Ao","Sei","Ko"],
+			"spot_names"			: [	"gin","gurē","ierō","sairo","usu","mura","umi","kuro"]
+		},
+		"121":
+		{
+			"base_color"			: [	"#92B7CF","#37285F","#4CBDB3","#505471"],
+			"spot_color"			: [	"#F2F2F2","#A65E7A","#141419","#747588","#4AE6C9","#4EABE7","#BCA1C4","#005484"],
+			"base_names"			: [	"Bu","Mu","Sei","Ku"],
+			"spot_names"			: [	"shiro","marūn","kuro","gurē","umi","burū","sumi","usu"]
+		},
+		"122":
+		{
+			"base_color"			: [	"#4E5C4C","#964813","#E06C92","#4B957E"],
+			"spot_color"			: [	"#FBE7AC","#E22525","#91796B","#55301A","#F18603","#FE7DB8","#0B7B4B","#8BBB21"],
+			"base_names"			: [	"Gu","Ko","Ma","Ryo"],
+			"spot_names"			: [	"ierō","dai","sairo","koshō","kōji","maze","mido","mosu"]
+		},
+		"123":
+		{
+			"base_color"			: [	"#CA3B5F","#6957A4","#252724","#ACB2E1"],
+			"spot_color"			: [	"#DADECD","#8C1636","#394136","#FABB60","#E97AD6","#7723B7","#9B78C6","#69BEEE"],
+			"base_names"			: [	"Aka","Mu","Ku","Ne"],
+			"spot_names"			: [	"gin","marūn","kura","ierō","pinku","mura","sumi","burū"]
+		},
+		"124":
+		{
+			"base_color"			: [	"#EFE05F","#1E203C","#0447A1","#005B6E"],
+			"spot_color"			: [	"#FFFFFF","#E5CA59","#736357","#FF9000","#8589E0","#D15EB1","#14C3C1","#8040F6"],
+			"base_names"			: [	"Ki","Ku","Bu","Ryo"],
+			"spot_names"			: [	"shiro","ukon","gurē","kōji","sumi","maze","usu","mura"]
+		},
+		"125":
+		{
+			"base_color"			: [	"#8BAAB8","#E687BB","#E4B25A","#4287C8"],
+			"spot_color"			: [	"#CFE7F3","#EDD256","#3B6079","#CB6D43","#C36599","#00BFF3","#4660D2","#973770"],
+			"base_names"			: [	"Ne","Ma","Cha","Sei"],
+			"spot_names"			: [	"yuki","ierō","kura","katsu","ouka","usu","burū","maze"]
+		},
+		"126":
+		{
+			"base_color"			: [	"#0E0E0D","#FFAB00","#D32F75","#B1B3B6"],
+			"spot_color"			: [	"#F2F2F2","#BB7777","#373636","#AE213F","#6186D3","#9B6BBE","#E3C94E","#036090"],
+			"base_names"			: [	"Ku","Ore","Ma","Ne"],
+			"spot_names"			: [	"shiro","sairo","kuro","marūn","burū","sumi","ukon","usu"]
+		},
+		"127":
+		{
+			"base_color"			: [	"#B3D0E3","#0076AD","#78BF9E","#00A9AF"],
+			"spot_color"			: [	"#F2F2F2","#131F26","#DDA63E","#F24607","#0C36E0","#A450BB","#61A0F2","#0ADFF5"],
+			"base_names"			: [	"Ao","Sei","Ryo","Bu"],
+			"spot_names"			: [	"shiro","kuro","sairo","kōji","burū","mura","usu","umi"]
+		},
+		"128":
+		{
+			"base_color"			: [	"#E85D55","#D6CABB","#412754","#4C8C82"],
+			"spot_color"			: [	"#f7f7da","#a4a4a4","#c34d46","#0f0b32","#5768af","#2cacda","#8fc08d","#765248"],
+			"base_names"			: [	"Aka","Ne","Mu","Ryo"],
+			"spot_names"			: [	"shiro","gurē","dai","kuro","usu","umi","mido","koshō"]
+		},
+		"129":
+		{
+			"base_color"			: [	"#CD174F","#D6701D","#D4CEB8","#EDC60A"],
+			"spot_color"			: [	"#FF302C","#F2F2F2","#7E2E00","#AFA15F","#FF8400","#FBFF00","#F874B5","#29A5B3"],
+			"base_names"			: [	"Ma","Ore","Ne","Ki"],
+			"spot_names"			: [	"dai","shiro","katsu","gin","kōji","ukon","pinku","umi"]
+		},
+		"157":
+		{
+			"base_color"			: [	"#BC0A2A","#F2A20C","#F2D1AE","#800D79"],
+			"spot_color"			: [	"#FF0000","#F2D03D","#262626","#FFFFFF","#FF6C17","#3AB8CA","#1D53B3","#E66FE8"],
+			"base_names"			: [	"Ma","Cha","Ki","Mu"],
+			"spot_names"			: [	"dai","ukon","kuro","shiro","kōji","usu","burū","ouka"]
+		},
+		"158":
+		{
+			"base_color"			: [	"#FF929D","#D9D3C7","#E946A6","#6957D9"],
+			"spot_color"			: [	"#FFFFFF","#90324B","#E8BC5D","#FF5B5B","#FF0074","#71BDB5","#CE7CD8","#9D1CCD"],
+			"base_names"			: [	"Ma","Ne","Aka","Mu"],
+			"spot_names"			: [	"shiro","marūn","sairo","dai","ouka","macha","sumi","mura"]
+		},
+		"159":
+		{
+			"base_color"			: [	"#01825C","#1F5FF1","#F3AE29","#AA51DD"],
+			"spot_color"			: [	"#FF2C48","#F88600","#FFCC00","#FFDFBA","#0FC5C0","#07AC2F","#7631AE","#0B43C0"],
+			"base_names"			: [	"Ryo","Sei","Ore","Mu"],
+			"spot_names"			: [	"dai","kōji","ukon","gin","umi","mido","mura","burū"]
+		}
+	}
+}

@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -v -H 'Host:landshark-zenkoi.appspot.com' -H 'Accept:*/*' -H 'Connection:keep-alive' -H 'Secret:123456789' -H 'User-Agent:ios/8813 CFNetwork/894 Darwin/17.4.0' -H 'Accept-Language:en-us' -H 'Accept-Encoding:br, gzip, deflate' -H 'X-Unity-Version:5.6.4p3' -H 'content-length:0' 'https://landshark-zenkoi.appspot.com/ZK2/GetInterstitial.php?v=2.1.13&csf=2&uid=aoX3u.56fFk6xSflr.qZRz6&lng=en&cachedFiles=' -O

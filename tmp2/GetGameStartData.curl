@@ -1,0 +1,15 @@
+#!/bin/bash
+curl -vvv \
+    -H 'Host:landshark-zenkoi.appspot.com' \
+    -H 'Accept:*/*' \
+    -H 'Content-Type:application/x-www-form-urlencoded' \
+    -H 'User-Agent:ios/8813 CFNetwork/894 Darwin/17.4.0' \
+    -H 'Connection:keep-alive' \
+    -H 'Secret:123456789' \
+    -H 'Accept-Language:en-us' \
+    -H 'Content-Length:241' \
+    -H 'Accept-Encoding:br, gzip, deflate' \
+    -H 'X-Unity-Version:5.6.4p3' \
+    -X POST 'https://landshark-zenkoi.appspot.com/ZK2/GetGameStartData.php' \
+    --data-binary 'var1=oX3u.56fFk6xSflr.qZRz6&var2=iOS&var3=1512ccfcd939cad1804519e58693d9d4&var4=iPhone7%2c1%7ciOS+11.2.6+%5e+en&clientVersion=2.1.13&var5=-25200.000016&var6=en&var7=US&idfa=00000000-0000-0000-0000-000000000000&adTrackingOn=0&checkSeq=0&seq=0' \
+    -o GetGameStartData.php.response

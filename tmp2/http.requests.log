@@ -1,0 +1,240 @@
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 541
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 0, "end": 10542, "food": [], "actions": ["FRAMERATE|30"], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~54524~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 944
+seq: 944
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 660
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 10542, "end": 20542, "food": [{"Count": 19, "Type": 4}, {"Count": 13, "Type": 6}, {"Count": 10, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~54524~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 945
+seq: 945
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 660
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 20542, "end": 30541, "food": [{"Count": 17, "Type": 4}, {"Count": 17, "Type": 6}, {"Count": 13, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~54824~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 946
+seq: 946
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 660
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 30541, "end": 40542, "food": [{"Count": 17, "Type": 4}, {"Count": 19, "Type": 6}, {"Count": 11, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~55214~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 947
+seq: 947
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 660
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 40542, "end": 50542, "food": [{"Count": 12, "Type": 4}, {"Count": 13, "Type": 6}, {"Count": 17, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~55544~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 948
+seq: 948
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 660
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 50542, "end": 60546, "food": [{"Count": 12, "Type": 4}, {"Count": 18, "Type": 6}, {"Count": 11, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~56054~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 949
+seq: 949
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 660
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 60546, "end": 70546, "food": [{"Count": 19, "Type": 4}, {"Count": 17, "Type": 6}, {"Count": 11, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~56384~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 950
+seq: 950
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 660
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 70546, "end": 80546, "food": [{"Count": 13, "Type": 4}, {"Count": 19, "Type": 6}, {"Count": 12, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~56714~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 951
+seq: 951
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 660
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 80546, "end": 90546, "food": [{"Count": 10, "Type": 4}, {"Count": 15, "Type": 6}, {"Count": 15, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~57074~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 952
+seq: 952
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 661
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 90546, "end": 100546, "food": [{"Count": 11, "Type": 4}, {"Count": 17, "Type": 6}, {"Count": 18, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~57524~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 953
+seq: 953
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 662
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 100546, "end": 110547, "food": [{"Count": 11, "Type": 4}, {"Count": 14, "Type": 6}, {"Count": 14, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~58064~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 954
+seq: 954
+--------------------------------------
+User-Agent: ios/8813 CFNetwork/894 Darwin/17.4.0
+Accept-Encoding: br, gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: landshark-zenkoi.appspot.com
+Content-Type: application/x-www-form-urlencoded
+Secret: 123456789
+Accept-Language: en-us
+X-Unity-Version: 5.6.4p3
+Content-Length: 662
+---[post]------------
+var1: oX3u.56fFk6xSflr.qZRz6
+var2: iOS
+var3: 1497182d547acd21d7b0f6164ded41e6
+var4: [{"class PondSessionClass": {"clientStart": 1561800059, "start": 110547, "end": 120547, "food": [{"Count": 17, "Type": 4}, {"Count": 16, "Type": 6}, {"Count": 11, "Type": 13}], "actions": [], "fish": "13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~58484~100~0~1561800035~2-0^0-596^0-614^1-605^0-9^0-8~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]
+var5: live
+clientVersion: 2.1.13
+checkSeq: 955
+seq: 955

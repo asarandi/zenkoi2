@@ -4,13 +4,14 @@ import sys
 import json
 import time
 import random
+import hashlib
 import requests
 from urllib.parse import parse_qs
 
 var1 = 'oX3u.56fFk6xSflr.qZRz6'
 var2 = 'iOS' 
-var3 = '1497182d547acd21d7b0f6164ded41e6'
-clientVersion = '2.1.13'
+var3 = hashlib.md5(int(time.time()).to_bytes(4, byteorder='little')).hexdigest()
+clientVersion = '2.1.14'
 
 def GetGameStartData():
 
@@ -51,7 +52,9 @@ def GetGameStartData():
 t_start = time.time()
 r = GetGameStartData()
 if not r: sys.exit('error')
-   
+
+print(r)
+
 t = int(r['t'][0]);
 seq = int(r['seqReset'][0])
 fl = json.loads(r['fishList'][0])
@@ -62,6 +65,7 @@ v['xp'] = int(v['xp'])
 start = (int)(time.time() - t_start)*1000
 food = []
 actions = ["FRAMERATE|30"]
+p = None
 while True:
 
     time.sleep(100)
@@ -87,14 +91,23 @@ while True:
     next_xp = 0
 
     if actions == []:
-        food.append({'Count': random.randrange(10, 20), 'Type':4})
+        food.append({'Count': random.randrange(50, 100), 'Type':4})
         next_xp = food[0]['Count'] * 35
-        food.append({'Count': random.randrange(10, 20), 'Type':6})
-        next_xp = food[1]['Count'] * 24
-        food.append({'Count': random.randrange(10, 20), 'Type':13})
-        next_xp = food[2]['Count'] * 30
+        food.append({'Count': random.randrange(50, 100), 'Type':6})
+        next_xp += food[1]['Count'] * 24
+        food.append({'Count': random.randrange(50, 100), 'Type':13})
+        next_xp += food[2]['Count'] * 30
 
     v['xp'] += next_xp
+    
+    if (p) and ('partner' in p):
+        partner_number = p['partner'][0].split('|')[-1]
+        actions.append('SPURN|' + partner_number)
+    if (p) and ('treasure' in p):
+        s = p['treasure'][0].replace('|', '^')
+        s += '^' + str(int(time.time() - random.randrange(100)))
+        actions.append('OPEN_TREASURE|' + s)
+        
 
 
     var4dict = {
@@ -124,6 +137,10 @@ while True:
             }
 
 
+
+    print('CLIENT:', data)
+    print()
+
 #    r = requests.post('http://127.0.0.1:4242/index.php', data=data, headers=headers)
     r = requests.post('https://landshark-zenkoi.appspot.com/ZK2/CommunicationsTick.php', data=data, headers=headers)
     start = end    
@@ -133,10 +150,15 @@ while True:
     if r.status_code != 200:
         print(r.status_code)
         break
-    p = parse_qs(r.content.decode('utf-8'))
-    print(p)
-    if p['\nresult'][0] != 'ok':
+    p = parse_qs(r.content.decode('utf-8').strip())
+    print('SERVER:', p)
+    print()
+
+    if p['result'][0][:2] != 'ok':
         break
+    if 'seq' in p:      
+        seq = int(['seq'][0])
+
 
 
 

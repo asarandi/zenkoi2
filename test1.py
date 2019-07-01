@@ -8,8 +8,15 @@ import hashlib
 import requests
 from urllib.parse import parse_qs
 
+with open('data/PondData.json') as fp:
+    data = fp.read().encode('utf-8')
+    fp.close()
+
+prey = json.loads(data)['prey']
+
+
 var1 = 'oX3u.56fFk6xSflr.qZRz6'
-var2 = 'iOS' 
+var2 = 'iOS'
 var3 = hashlib.md5(int(time.time()).to_bytes(4, byteorder='little')).hexdigest()
 clientVersion = '2.1.14'
 
@@ -46,7 +53,7 @@ def GetGameStartData():
 #    r = requests.post('http://127.0.0.1:4242/index.php', data=data, headers=headers)
     r = requests.post('https://landshark-zenkoi.appspot.com/ZK2/GetGameStartData.php', data=data, headers=headers)
     if r.status_code != 200: return None
-    return parse_qs(r.content.decode('utf-8'))        
+    return parse_qs(r.content.decode('utf-8'))
 
 
 t_start = time.time()
@@ -74,7 +81,7 @@ while True:
     end = start + t_delta
     seq += 1
     fish = f"{v['fid']}~{v['skin']}~{v['colour']}~{v['spot']}~{v['maxVelocity']}~{v['agilityBonus']}~{v['boosts']}~{v['intelligence']}~{v['xp']}~{v['energy']}~{v['giftCount']}~{v['lastUpdate']}~{v['gems']}~{v['ascended']}"
-       
+
     headers = {
                     'Host'                    : 'landshark-zenkoi.appspot.com',
                     'Accept'                  : '*/*',
@@ -91,15 +98,14 @@ while True:
     next_xp = 0
 
     if actions == []:
-        food.append({'Count': random.randrange(50, 100), 'Type':4})
-        next_xp = food[0]['Count'] * 35
-        food.append({'Count': random.randrange(50, 100), 'Type':6})
-        next_xp += food[1]['Count'] * 24
-        food.append({'Count': random.randrange(50, 100), 'Type':13})
-        next_xp += food[2]['Count'] * 30
+        for p in prey:
+            count = random.randrange(20, 40)
+            prey_id = p['id']
+            next_xp += (count * p['xp'])
+            food.append({'Count': count, 'Type': prey_id})
 
     v['xp'] += next_xp
-    
+
     if (p) and ('partner' in p):
         partner_number = p['partner'][0].split('|')[-1]
         actions.append('SPURN|' + partner_number)
@@ -107,7 +113,7 @@ while True:
         s = p['treasure'][0].replace('|', '^')
         s += '^' + str(int(time.time() - random.randrange(100)))
         actions.append('OPEN_TREASURE|' + s)
-        
+
 
 
     var4dict = {
@@ -143,7 +149,7 @@ while True:
 
 #    r = requests.post('http://127.0.0.1:4242/index.php', data=data, headers=headers)
     r = requests.post('https://landshark-zenkoi.appspot.com/ZK2/CommunicationsTick.php', data=data, headers=headers)
-    start = end    
+    start = end
     t_start = time.time()
 
     actions = []
@@ -156,16 +162,16 @@ while True:
 
     if p['result'][0][:2] != 'ok':
         break
-    if 'seq' in p:      
-        seq = int(['seq'][0])
+    if 'seq' in p:
+        seq = int(p['seq'][0])
 
 
 
 
-#   
-#   e1z1r1p6% ./test1.py 
+#
+#   e1z1r1p6% ./test1.py
 #   {'\nresult': ['ok'], 'login': ['0^1^6^5^6^6^6^7^10^6^31^'], 'chal': ['C-32-0-5-0-E1,P-8-0-25-0-E2,E-0-0-30-0-E3,F-0-0-3-0-E4'], 'slitd': ['20095'], 't': ['1561785905'], 'seqReset': ['837'], 'dp': ['6'], 'pc': ['21'], 'ec': ['210'], 'aw': ['21'], 'asc': ['6'], 'boostA': ['2'], 'boostS': ['2'], 'fishSlots': ['5'], 'travc': ['0'], 'flags': ['3'], 'achievements': ['AIAAAAAAAA'], 'created': ['1545072344'], 'fishList': ['{"13":{"fid":"13","skin":"1","colour":"1","spot":"3","xp":"53156","energy":"100","giftCount":"0","lastUpdate":"1561785834","alt_name":"","ascended":0,"model":"GeneticsClass","maxVelocity":"2^8^8","agilityBonus":"0^8^8","boosts":"0^0^0","intelligence":"3^7^3","gems":"2-0^0-584^0-590^1-597^0-9^0-7"}}'], 'collection': ['{"0":"0~50c0908","1":"1~c00","70":"70~c"}'], 'dragons': ['{"0":"0~80800","70":"70~c","1":"1~400"}'], 'AppleGameCenterUid': ['G:12107361000'], 'zenPondVersion': ['1'], 'zenPondData': ['AAP.tACxAAB..wAAAAkAjP81AAF..wAA'], 'decoOwned': ['3*1|9*1|8*1']}
-#   
+#
 #   result ['ok']
 #   login ['0^1^6^5^6^6^6^7^10^6^31^']
 #   chal ['C-32-0-5-0-E1,P-8-0-25-0-E2,E-0-0-30-0-E3,F-0-0-3-0-E4']
@@ -191,9 +197,9 @@ while True:
 #   zenPondVersion ['1']
 #   zenPondData ['AAP.tACxAAB..wAAAAkAjP81AAF..wAA']
 #   decoOwned ['3*1|9*1|8*1']
-#   
-#   
-#  
+#
+#
+#
 
 #
 #{
@@ -217,12 +223,12 @@ while True:
 #
 #fid ~ skin ~ colour ~ spot ~ maxVelocity ~ agilityBonus ~ boosts ~ intelligence ~ xp ~ energy ~ giftCount ~ lastUpdate ~ gems ~ ascended
 #
-#   
+#
 
-#   
+#
 #   {'var1': ['oX3u.56fFk6xSflr.qZRz6'], 'var2': ['iOS'], 'var3': ['a3c33c65edaa63d7db3e2baf34d882f7'], 'var4': ['[{"class PondSessionClass":{"clientStart":1561783433,"start":1270,"end":101318,"food":[],"actions":[],"fish":"13~1~1~3~2^8^8~0^8^8~0^0^0~3^7^3~53156~100~0~1561781852~2-0^0-584^0-590^1-597^0-9^0-7~0","countTowardsPortal":true,"aBoost":0,"sBoost":0}}]'], 'var5': ['live'], 'clientVersion': ['2.1.13'], 'checkSeq': ['814'], 'seq': ['814\n']}
-#   
-#   
+#
+#
 
 
 

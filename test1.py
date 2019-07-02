@@ -6,6 +6,7 @@ import time
 import random
 import hashlib
 import requests
+from gemsdata import levels
 from urllib.parse import parse_qs
 
 with open('data/PondData.json') as fp:
@@ -73,7 +74,14 @@ start = (int)(time.time() - t_start)*1000
 food = []
 actions = ["FRAMERATE|30"]
 p = None
+level = int(v['gems'][0][0])
+
 while True:
+    if (level < 1) or (level > 8):
+        break
+
+    print('level', level)
+    print()
 
     time.sleep(100)
     t_end = time.time()
@@ -98,11 +106,16 @@ while True:
     next_xp = 0
 
     if actions == []:
-        for p in prey:
-            count = random.randrange(20, 40)
-            prey_id = p['id']
-            next_xp += (count * p['xp'])
-            food.append({'Count': count, 'Type': prey_id})
+        food = []
+        for f in levels[level]['food']:
+            ft = f['Type']
+            fc = random.randrange(f['Count'], f['Count'] * 2)            
+            for k in prey:
+                if k['id'] == ft:
+                    next_xp += (fc * k['xp'])
+                    break
+            food.append({'Count': fc, 'Type': ft})
+        actions = levels[level]['actions']
 
     v['xp'] += next_xp
 
@@ -164,6 +177,14 @@ while True:
         break
     if 'seq' in p:
         seq = int(p['seq'][0])
+
+    if level == 8:
+        break
+    if 'GEMS' in p:
+        gems = p['GEMS'][0].split('|')[1]
+        v['gems'] = gems
+        level = int(v['gems'].split('-')[0])
+
 
 
 

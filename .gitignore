@@ -2,3 +2,5 @@
 ._*
 *.sw*
 tools
+__pycache__/
+*.pyc

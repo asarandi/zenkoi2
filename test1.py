@@ -80,6 +80,11 @@ while True:
     if (level < 1) or (level > 8):
         break
 
+    if level > 1:
+        mv = v['maxVelocity'].split('^');       mv[2] = mv[1];     v['maxVelocity'] = '^'.join(mv)
+        mv = v['agilityBonus'].split('^');       mv[2] = mv[1];     v['agilityBonus'] = '^'.join(mv)
+        mv = v['intelligence'].split('^');       mv[2] = mv[1];     v['intelligence'] = '^'.join(mv)
+
     print('level', level)
     print()
 
@@ -106,7 +111,6 @@ while True:
     next_xp = 0
 
     if actions == []:
-        food = []
         for f in levels[level]['food']:
             ft = f['Type']
             fc = random.randrange(f['Count'], f['Count'] * 2)            
@@ -115,13 +119,20 @@ while True:
                     next_xp += (fc * k['xp'])
                     break
             food.append({'Count': fc, 'Type': ft})
-        actions = levels[level]['actions']
+        actions += levels[level]['actions']
+
+    else:
+        for k in prey:
+            count = random.randrange(100, 200)
+            prey_id = k['id']
+            next_xp += (count * k['xp'])
+            food.append({'Count': count, 'Type': prey_id})
 
     v['xp'] += next_xp
 
     if (p) and ('partner' in p):
         partner_number = p['partner'][0].split('|')[-1]
-        actions.append('SPURN|' + partner_number)
+        actions.append('MATE|' + partner_number)
     if (p) and ('treasure' in p):
         s = p['treasure'][0].replace('|', '^')
         s += '^' + str(int(time.time() - random.randrange(100)))

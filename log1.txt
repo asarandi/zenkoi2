@@ -1,0 +1,56 @@
+{'\nresult': ['ok'], 'login': ['0^1^11^3^4^7^4^7^10^11^31^'], 'chal': ['C-80-5-5-1-N1,A-0-1-1-1-N2,T-0-5-5-1-N3,F-0-3-3-1-N4'], 'slitd': ['48809'], 't': ['1562189191'], 'seqReset': ['3647'], 'dp': ['176'], 'pc': ['333'], 'ec': ['432'], 'aw': ['199'], 'asc': ['176'], 'boostA': ['2'], 'boostS': ['2'], 'fishSlots': ['5'], 'travc': ['0'], 'flags': ['3'], 'achievements': ['CYAwMAAAAA'], 'created': ['1545072344'], 'fishList': ['{"217":{"fid":"217","skin":"0","colour":"3","spot":"0","xp":"985741","energy":"100","giftCount":"0","lastUpdate":"1562189061","alt_name":"","ascended":0,"model":"GeneticsClass","maxVelocity":"0^7^7","agilityBonus":"0^7^7","boosts":"0^0^0","intelligence":"0^7^7","gems":"8-0^1-0^0-0^0-0^2-0^4-0^0-0^0-0^0-0"},"218":{"fid":"218","skin":"3","colour":"2","spot":"0","xp":"38","energy":"100","giftCount":"0","lastUpdate":"1562189101","alt_name":"","ascended":0,"model":"GeneticsClass","maxVelocity":"3^9^3","agilityBonus":"1^8^1","boosts":"0^0^0","intelligence":"1^8^1","gems":"1-0^0-1^0-1^0-0"},"219":{"fid":"219","skin":"3","colour":"3","spot":"3","xp":"0","energy":"100","giftCount":"0","lastUpdate":"1562186730","alt_name":"","ascended":0,"model":"GeneticsClass","maxVelocity":"1^8^1","agilityBonus":"1^10^1","boosts":"0^0^0","intelligence":"2^8^2","gems":"1-0^0-0^0-0^0-0"}}'], 'collection': ['{"0":"0~270d0d0b","1":"1~4e878d07","70":"70~c","2":"2~5044d2b","3":"3~c010400"}'], 'dragons': ['{"0":"0~270d0d0b","70":"70~c","1":"1~2868c01","2":"2~4442b","3":"3~4000400"}'], 'AppleGameCenterUid': ['G:12107361000'], 'zenPondVersion': ['1'], 'zenPondData': ['AAP.tACxAAB..wAAAAkAjP81AAF..wAA'], 'decoOwned': ['3*1|9*1|8*1']}
+level 1
+
+CLIENT: {'var1': 'oX3u.56fFk6xSflr.qZRz6', 'var2': 'iOS', 'var3': '582b9b366b9eda7ea0b497f2a15e8f58', 'var4': '[{"class PondSessionClass": {"clientStart": 1562189191, "start": 0, "end": 30630, "food": [{"Count": 3, "Type": 1}, {"Count": 7, "Type": 12}], "actions": ["FRAMERATE|30", "CRAFT|0^3", "CRAFT|1", "OPEN_PORTAL"], "fish": "219~3~3~3~1^8^1~1^10^1~0^0^0~2^8^2~0~100~0~1562186730~1-0^0-0^0-0^0-0~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]', 'var5': 'live', 'clientVersion': '2.1.14', 'checkSeq': 3648, 'seq': 3648}
+
+SERVER: {'result': ['ok'], 'sessions': ['1562189191^0'], 'treasure': ['219|1838464685|3'], 'GEMS': ['219|2-0^1-0^0-0^0-0^0-0^0-0'], 'flags': ['3'], 'chal': ['C-80-5-5-1-N1,A-0-1-1-1-N2,T-0-5-5-1-N3,F-0-3-3-1-N4'], 't': ['1562189221'], 'slitd': ['48779'], 'seq': ['3648']}
+
+level 2
+
+CLIENT: {'var1': 'oX3u.56fFk6xSflr.qZRz6', 'var2': 'iOS', 'var3': '582b9b366b9eda7ea0b497f2a15e8f58', 'var4': '[{"class PondSessionClass": {"clientStart": 1562189191, "start": 30630, "end": 60730, "food": [{"Count": 36, "Type": 6}, {"Count": 47, "Type": 13}, {"Count": 13, "Type": 4}], "actions": ["CRAFT|0^3", "CRAFT|1^3", "CRAFT|2", "OPEN_PORTAL", "OPEN_TREASURE|219^1838464685^3^1562189247"], "fish": "219~3~3~3~1^8^8~1^10^10~0^0^0~2^8^8~186~100~0~1562186730~2-0^1-0^0-0^0-0^0-0^0-0~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]', 'var5': 'live', 'clientVersion': '2.1.14', 'checkSeq': 3649, 'seq': 3649}
+
+SERVER: {'result': ['ok'], 'sessions': ['1562189191^30630'], 'partner': ['0~3~2~2~2^9^7~0^9^3~0^0^0~2^8^4~15953~100~0~1562189252~1-0^0-0^0-0^0-0~0|219'], 'GEMS': ['219|3-0^4-0^1-0^5-0^2-0^0-0^0-0'], 'OPEN_TREASURE_RESP': ['219|3'], 'flags': ['3'], 'chal': ['C-80-5-5-1-N1,A-0-1-1-1-N2,T-0-5-5-1-N3,F-0-3-3-1-N4'], 't': ['1562189252'], 'slitd': ['48748'], 'seq': ['3649']}
+
+level 3
+
+MATE|219 ['0', '3', '2', '2', '2^9^7', '0^9^3', '0^0^0', '2^8^4', '15953', '100', '0', '1562189252', '1-0^0-0^0-0^0-0', '0|219'] 
+
+CLIENT: {'var1': 'oX3u.56fFk6xSflr.qZRz6', 'var2': 'iOS', 'var3': '582b9b366b9eda7ea0b497f2a15e8f58', 'var4': '[{"class PondSessionClass": {"clientStart": 1562189191, "start": 60730, "end": 90821, "food": [{"Count": 68, "Type": 2}, {"Count": 45, "Type": 5}, {"Count": 54, "Type": 7}, {"Count": 62, "Type": 14}, {"Count": 41, "Type": 20}, {"Count": 70, "Type": 21}], "actions": ["CRAFT|0^2", "CRAFT|1^2", "CRAFT|2", "OPEN_PORTAL", "MATE|219"], "fish": "219~3~3~3~1^8^8~1^10^10~0^0^0~2^8^8~2915~100~0~1562186730~3-0^4-0^1-0^5-0^2-0^0-0^0-0~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]', 'var5': 'live', 'clientVersion': '2.1.14', 'checkSeq': 3650, 'seq': 3650}
+
+SERVER: {'result': ['ok'], 'sessions': ['1562189191^60730'], 'GEMS': ['219|4-0^2-0^3-0^0-0^5-0^4-0^0-0^0-0'], 'MATE': ['1|1562189283|74|219~3~3~3~1^8^1~1^10^1~0^0^0~2^8^2~2915~100~0~1562189281~4-0^2-0^3-0^0-0^5-0^4-0^0-0^0-0~0|3~2~2~2^9^7~0^9^3~0^0^0~2^8^4~15953~100~0~1562189252~1-0^0-0^0-0^0-0'], 'flags': ['3'], 'chal': ['C-80-5-5-1-N1,A-0-1-1-1-N2,T-0-5-5-1-N3,F-0-3-3-1-N4'], 't': ['1562189283'], 'slitd': ['48717'], 'seq': ['3650']}
+
+level 4
+
+CLIENT: {'var1': 'oX3u.56fFk6xSflr.qZRz6', 'var2': 'iOS', 'var3': '582b9b366b9eda7ea0b497f2a15e8f58', 'var4': '[{"class PondSessionClass": {"clientStart": 1562189191, "start": 90821, "end": 120918, "food": [{"Count": 126, "Type": 2}, {"Count": 124, "Type": 5}, {"Count": 142, "Type": 7}, {"Count": 151, "Type": 14}, {"Count": 120, "Type": 20}, {"Count": 92, "Type": 21}], "actions": ["CRAFT|0^4", "CRAFT|1^2", "CRAFT|2", "CRAFT|3", "OPEN_PORTAL"], "fish": "219~3~3~3~1^8^8~1^10^10~0^0^0~2^8^8~18370~100~0~1562186730~4-0^2-0^3-0^0-0^5-0^4-0^0-0^0-0~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]', 'var5': 'live', 'clientVersion': '2.1.14', 'checkSeq': 3651, 'seq': 3651}
+
+SERVER: {'result': ['ok'], 'sessions': ['1562189191^90821'], 'GEMS': ['219|5-0^1-0^3-0^0-0^4-0^5-0^0-0^0-0^0-0'], 'flags': ['3'], 'chal': ['C-80-5-5-1-N1,A-0-1-1-1-N2,T-0-5-5-1-N3,F-0-3-3-1-N4'], 't': ['1562189313'], 'slitd': ['48687'], 'seq': ['3651']}
+
+level 5
+
+CLIENT: {'var1': 'oX3u.56fFk6xSflr.qZRz6', 'var2': 'iOS', 'var3': '582b9b366b9eda7ea0b497f2a15e8f58', 'var4': '[{"class PondSessionClass": {"clientStart": 1562189191, "start": 120918, "end": 150990, "food": [{"Count": 97, "Type": 3}, {"Count": 67, "Type": 8}, {"Count": 79, "Type": 11}, {"Count": 67, "Type": 16}, {"Count": 71, "Type": 17}, {"Count": 71, "Type": 19}], "actions": ["CRAFT|0^2", "CRAFT|1", "CRAFT|2^2", "CRAFT|3", "CRAFT|4", "OPEN_PORTAL"], "fish": "219~3~3~3~1^8^8~1^10^10~0^0^0~2^8^8~52875~100~0~1562186730~5-0^1-0^3-0^0-0^4-0^5-0^0-0^0-0^0-0~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]', 'var5': 'live', 'clientVersion': '2.1.14', 'checkSeq': 3652, 'seq': 3652}
+
+SERVER: {'result': ['ok'], 'sessions': ['1562189191^120918'], 'partner': ['0~3~2~4~3^7^5~1^9^5~0^0^0~1^7^5~15953~100~0~1562189344~1-0^0-0^0-0^0-0~0|219'], 'treasure': ['219|516982557|3'], 'GEMS': ['219|6-0^5-0^4-0^0-0^1-0^3-0^0-0^0-0^0-0'], 'flags': ['3'], 'chal': ['C-80-5-5-1-N1,A-0-1-1-1-N2,T-0-5-5-1-N3,F-0-3-3-1-N4'], 't': ['1562189344'], 'slitd': ['48656'], 'seq': ['3652']}
+
+level 6
+
+MATE|219 ['0', '3', '2', '4', '3^7^5', '1^9^5', '0^0^0', '1^7^5', '15953', '100', '0', '1562189344', '1-0^0-0^0-0^0-0', '0|219'] 
+
+CLIENT: {'var1': 'oX3u.56fFk6xSflr.qZRz6', 'var2': 'iOS', 'var3': '582b9b366b9eda7ea0b497f2a15e8f58', 'var4': '[{"class PondSessionClass": {"clientStart": 1562189191, "start": 150990, "end": 181089, "food": [{"Count": 116, "Type": 3}, {"Count": 97, "Type": 8}, {"Count": 106, "Type": 11}, {"Count": 76, "Type": 16}, {"Count": 89, "Type": 17}, {"Count": 98, "Type": 19}], "actions": ["CRAFT|0^2", "CRAFT|1", "CRAFT|2^2", "CRAFT|3", "CRAFT|4", "OPEN_PORTAL", "MATE|219", "OPEN_TREASURE|219^516982557^3^1562189327"], "fish": "219~3~3~3~1^8^8~1^10^10~0^0^0~2^8^8~164005~100~0~1562186730~6-0^5-0^4-0^0-0^1-0^3-0^0-0^0-0^0-0~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]', 'var5': 'live', 'clientVersion': '2.1.14', 'checkSeq': 3653, 'seq': 3653}
+
+SERVER: {'result': ['ok'], 'sessions': ['1562189191^150990'], 'GEMS': ['219|7-0^4-0^3-0^0-0^5-0^2-0^0-0^0-0^0-0'], 'MATE': ['1|1562189374|75|219~3~3~3~1^8^8~1^10^10~0^0^0~2^8^8~164005~100~0~1562189372~7-0^4-0^3-0^0-0^5-0^2-0^0-0^0-0^0-0~0|3~2~4~3^7^5~1^9^5~0^0^0~1^7^5~15953~100~0~1562189344~1-0^0-0^0-0^0-0'], 'OPEN_TREASURE_RESP': ['219|3'], 'flags': ['3'], 'chal': ['C-80-5-5-1-N1,A-0-1-1-1-N2,T-0-5-5-1-N3,F-0-3-3-1-N4'], 't': ['1562189374'], 'slitd': ['48626'], 'seq': ['3653']}
+
+level 7
+
+CLIENT: {'var1': 'oX3u.56fFk6xSflr.qZRz6', 'var2': 'iOS', 'var3': '582b9b366b9eda7ea0b497f2a15e8f58', 'var4': '[{"class PondSessionClass": {"clientStart": 1562189191, "start": 181089, "end": 211183, "food": [{"Count": 175, "Type": 9}, {"Count": 151, "Type": 10}, {"Count": 160, "Type": 15}, {"Count": 191, "Type": 18}, {"Count": 215, "Type": 22}, {"Count": 122, "Type": 23}], "actions": ["CRAFT|0^4", "CRAFT|1^2", "CRAFT|2^2", "CRAFT|3", "CRAFT|4", "OPEN_PORTAL"], "fish": "219~3~3~3~1^8^8~1^10^10~0^0^0~2^8^8~303875~100~0~1562186730~7-0^4-0^3-0^0-0^5-0^2-0^0-0^0-0^0-0~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]', 'var5': 'live', 'clientVersion': '2.1.14', 'checkSeq': 3654, 'seq': 3654}
+
+SERVER: {'result': ['ok'], 'sessions': ['1562189191^181089'], 'partner': ['0~3~2~1~3^7^5~0^8^4~0^0^0~3^9^7~15953~100~0~1562189405~1-0^0-0^0-0^0-0~0|219'], 'GEMS': ['219|8-0^3-0^4-0^0-0^5-0^2-0^0-0^0-0^0-0'], 'flags': ['3'], 'chal': ['C-80-5-5-1-N1,A-0-1-1-1-N2,T-0-5-5-1-N3,F-0-3-3-1-N4'], 't': ['1562189405'], 'slitd': ['48595'], 'seq': ['3654']}
+
+level 8
+
+MATE|219 ['0', '3', '2', '1', '3^7^5', '0^8^4', '0^0^0', '3^9^7', '15953', '100', '0', '1562189405', '1-0^0-0^0-0^0-0', '0|219'] 
+
+CLIENT: {'var1': 'oX3u.56fFk6xSflr.qZRz6', 'var2': 'iOS', 'var3': '582b9b366b9eda7ea0b497f2a15e8f58', 'var4': '[{"class PondSessionClass": {"clientStart": 1562189191, "start": 211183, "end": 241281, "food": [{"Count": 267, "Type": 9}, {"Count": 285, "Type": 10}, {"Count": 230, "Type": 15}, {"Count": 170, "Type": 18}, {"Count": 196, "Type": 22}, {"Count": 200, "Type": 23}], "actions": ["CRAFT|0^4", "CRAFT|1^2", "CRAFT|2^2", "MATE|219"], "fish": "219~3~3~3~1^8^8~1^10^10~0^0^0~2^8^8~936875~100~0~1562186730~8-0^3-0^4-0^0-0^5-0^2-0^0-0^0-0^0-0~0", "countTowardsPortal": true, "aBoost": 0, "sBoost": 0}}]', 'var5': 'live', 'clientVersion': '2.1.14', 'checkSeq': 3655, 'seq': 3655}
+
+SERVER: {'result': ['ok'], 'sessions': ['1562189191^211183'], 'MATE': ['1|1562189435|76|219~3~3~3~1^8^8~1^10^10~0^0^0~2^8^8~936875~100~0~1562189432~8-0^3-150^4-180^0-0^5-190^2-222^0-2^0-2^0-0~0|3~2~1~3^7^5~0^8^4~0^0^0~3^9^7~15953~100~0~1562189405~1-0^0-0^0-0^0-0'], 'flags': ['3'], 'chal': ['C-80-5-5-1-N1,A-0-1-1-1-N2,T-0-5-5-1-N3,F-0-3-3-1-N4'], 't': ['1562189435'], 'slitd': ['48565'], 'seq': ['3655']}
+
+

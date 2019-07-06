@@ -16,6 +16,8 @@ with open('data/PondData.json') as fp:
 
 prey = json.loads(data)['prey']
 
+patternNames = json.loads(data)['patternNames']
+
 
 var1 = 'oX3u.56fFk6xSflr.qZRz6'
 var2 = 'iOS'
@@ -97,7 +99,6 @@ def is_mate(data):
 
 # 'partner': ['0~3~2~1~3^7^5~0^8^4~0^0^0~3^9^7~15953~100~0~1562189405~1-0^0-0^0-0^0-0~0|219'],
 
-
 t = int(r['t'][0]);
 seq = int(r['seqReset'][0])
 fl = json.loads(r['fishList'][0])
@@ -108,17 +109,31 @@ my_fid = str(v['fid'])
 start = (int)(time.time() - t_start)*1000
 food = []
 actions = ["FRAMERATE|30", "SPURN|" + my_fid ] #, "HATCH|125"]  # ,"BUY|HCH|76|4"]
+chal = r['chal'][0].split(',')
+for i in range(10000):
+    for task in chal:
+        actions.append("CLAIMTASK|" + task)
+
+#for i in range(110, 130):
+#    actions.append("BUY|CRK|" + str(i))
+#
+
+#for i, pn in enumerate(patternNames):
+#    if pn == '???': continue
+#    actions.append("BUY|CRK|" + str(i))
+
+
+#actions.append("CLAIMTASK|P-20-10-10-1-E1") #,E-0-0-30-0-E2,A-0-0-1-0-E3,F-0-1-3-0-E4
+#P-20-10-10-1-E1,E-0-0-30-0-E2,A-0-0-1-0-E3,F-0-1-3-0-E4        ;
+#actions.append("BUY|CRK|69|0|1")
+#actions.append("BUY|CRK|106")
+#actions.append("CLAIM_INBOX_ITEM|__fish_59~2~6~1^9^1~1^10^1~0^0^0~1^9^1~18~100~0~1562317944~1-0^0-0^0-0^0-0_1562317944")
 p = None
 level = int(v['gems'][0][0])
 done = False
 while True:
     if (level < 1) or (level > 8):
         break
-
-    if level > 1:
-        mv = v['maxVelocity'].split('^');       mv[2] = mv[1];     v['maxVelocity'] = '^'.join(mv)
-        mv = v['agilityBonus'].split('^');       mv[2] = mv[1];     v['agilityBonus'] = '^'.join(mv)
-        mv = v['intelligence'].split('^');       mv[2] = mv[1];     v['intelligence'] = '^'.join(mv)
 
     print('level', level)
     print()
@@ -158,6 +173,10 @@ while True:
 
     v['xp'] += next_xp
 
+    if next_xp > 10000:
+        mv = v['maxVelocity'].split('^');       mv[2] = mv[1];     v['maxVelocity'] = '^'.join(mv)
+        mv = v['agilityBonus'].split('^');       mv[2] = mv[1];     v['agilityBonus'] = '^'.join(mv)
+        mv = v['intelligence'].split('^');       mv[2] = mv[1];     v['intelligence'] = '^'.join(mv)
 
     if p:
         if 'partner' in p:
@@ -180,6 +199,14 @@ while True:
         actions.append('NUKE_FISH|' + my_fid)
 
 
+    chal = None
+    if p and 'chal' in p:
+        chal = p['chal'][0].split(',')
+    if chal:
+        for task in chal:
+            actions.append("CLAIMTASK|" + task)
+
+    actions.append("CLAIM_ESSENCE|100")            
 
     var4dict = {
                 'class PondSessionClass'      : {

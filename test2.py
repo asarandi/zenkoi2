@@ -101,8 +101,8 @@ def is_mate(data):
 
 t = int(r['t'][0]);
 seq = int(r['seqReset'][0])
-fl = json.loads(r['fishList'][0])
-k, v = fl.popitem()
+fishList = json.loads(r['fishList'][0])
+k, v = fishList.popitem()
 v['xp'] = int(v['xp'])
 my_fid = str(v['fid'])
 
@@ -110,9 +110,13 @@ start = (int)(time.time() - t_start)*1000
 food = []
 actions = ["FRAMERATE|30", "SPURN|" + my_fid ] #, "HATCH|125"]  # ,"BUY|HCH|76|4"]
 chal = r['chal'][0].split(',')
-for i in range(10000):
-    for task in chal:
-        actions.append("CLAIMTASK|" + task)
+
+#for fid, data in fishList.items():
+#    actions.append("NUKE_FISH|" + str(fid))
+
+#for i in range(10000):
+#    for task in chal:
+#        actions.append("CLAIMTASK|" + task)
 
 #for i in range(110, 130):
 #    actions.append("BUY|CRK|" + str(i))

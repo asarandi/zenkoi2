@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 levels = {
         1: {
             'food': [
@@ -96,7 +94,7 @@ levels = {
                 {'Count': 18*8, 'Type': 23}
                 ],
              'actions': [
-                "CRAFT|0^4", "CRAFT|1^2", "CRAFT|2^2", "CRAFT|3", "CRAFT|4" #, "OPEN_PORTAL"
+                "CRAFT|0^4", "CRAFT|1^2", "CRAFT|2^2", "CRAFT|3", "CRAFT|4", "OPEN_PORTAL"
                 ]
         }
 }

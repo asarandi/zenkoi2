@@ -1,0 +1,465 @@
+{
+    "minClientVersion": {
+        "Facebook": "0.0.10",
+         "iOS": "2.1.12",
+         "Android": "2.1.12",
+         "Amazon": "1.9.0"
+    },
+     "cacheExpiryInDays": "8",
+     "clientVersions": {
+        "2.0.0": {
+            "allPlatforms": {
+                "EventData.json": {
+                    "path": "cache/2.0.0/allPlatforms/EventData.json",
+                     "hashValue": "A2-83-02-80-A0-0E-BA-2A-AD-67-21-34-BE-EF-0A-2D-ED-F2-96-B8"
+                },
+                 "GameServicesData.json": {
+                    "path": "cache/2.0.0/allPlatforms/GameServicesData.json",
+                     "hashValue": "1B-09-40-30-9B-5D-A0-FA-34-8E-8C-50-D4-C6-ED-14-73-41-E7-46"
+                },
+                 "GemsData.json": {
+                    "path": "cache/2.0.0/allPlatforms/GemsData.json",
+                     "hashValue": "D8-56-0F-37-3A-6A-FE-A5-32-E5-64-4E-1F-91-CE-88-B4-07-FC-97"
+                },
+                 "ItemData.json": {
+                    "path": "cache/2.0.0/allPlatforms/ItemData.json",
+                     "hashValue": "71-EE-97-B9-55-B8-E7-52-77-8C-7B-60-0A-06-16-00-88-49-85-B1"
+                },
+                 "PondData.json": {
+                    "path": "cache/2.0.0/allPlatforms/PondData.json",
+                     "hashValue": "94-E8-D1-BB-1C-8C-EE-CF-E4-46-00-C5-E1-49-74-1D-67-8C-09-CB"
+                },
+                 "Carpe_de.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_de.xml",
+                     "hashValue": "7C-BD-44-A6-B8-81-27-11-06-DB-55-BF-7C-91-02-47-11-BD-D0-CE"
+                },
+                 "Carpe_en.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_en.xml",
+                     "hashValue": "86-00-B6-18-C0-E5-DF-90-96-05-3E-D5-00-25-55-6B-EB-53-FA-1D"
+                },
+                 "Carpe_es.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_es.xml",
+                     "hashValue": "69-21-9B-DF-27-80-80-0B-BB-51-FA-CE-26-71-54-48-86-B6-00-DD"
+                },
+                 "Carpe_fr.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_fr.xml",
+                     "hashValue": "FF-E5-0A-FB-CE-C8-A0-EC-FA-93-8E-20-5F-90-B2-24-D8-B4-F5-42"
+                },
+                 "Carpe_it.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_it.xml",
+                     "hashValue": "24-72-16-13-C4-1D-F2-56-B7-2C-A0-29-2C-EA-50-E5-21-90-27-53"
+                },
+                 "Carpe_ja.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_ja.xml",
+                     "hashValue": "C5-B9-9F-2B-BC-6E-B6-FD-C0-1E-B4-61-22-4F-CB-B4-69-5A-3A-DF"
+                },
+                 "Carpe_ko.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_ko.xml",
+                     "hashValue": "E1-DF-81-D4-11-F0-F8-EA-50-7E-7A-D7-59-3E-0C-95-CF-82-BC-F5"
+                },
+                 "Carpe_pt-BR.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_pt-BR.xml",
+                     "hashValue": "A8-71-F5-D0-2B-DE-67-85-4F-3A-DF-61-9C-24-05-23-A4-BC-0D-F1"
+                },
+                 "Carpe_th.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_th.xml",
+                     "hashValue": "C6-6F-AC-B3-01-13-AE-E4-AC-5C-59-D3-72-F0-ED-E8-E7-52-9D-5A"
+                },
+                 "Carpe_zh-Hans.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_zh-Hans.xml",
+                     "hashValue": "75-2B-59-9D-A5-72-FE-03-53-C9-97-4A-F9-D2-27-F4-B7-6B-A7-6C"
+                },
+                 "Carpe_zh-Hant.xml": {
+                    "path": "cache/2.0.0/allPlatforms/lang/Carpe_zh-Hant.xml",
+                     "hashValue": "F9-89-93-E3-B6-4B-1A-9D-85-46-F3-1A-A3-AE-67-16-06-7D-FB-1D"
+                }
+            },
+             "androidPlatform": {
+                "zk2_server_decorations.1x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_decorations.1x",
+                     "hashValue": "35-4D-DB-90-B4-EB-B2-FE-AC-DB-C9-CD-F7-68-0C-76-15-9C-F3-A8"
+                },
+                 "zk2_server_decorations.2x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_decorations.2x",
+                     "hashValue": "5C-DE-AF-5C-DB-95-E0-17-DE-47-BA-23-E9-89-A6-46-93-8A-5A-A1"
+                },
+                 "zk2_server_decoration_prefabs": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_decoration_prefabs",
+                     "hashValue": "12-E5-A6-D0-D8-D7-88-A7-27-44-AC-6F-E9-6B-B5-9A-45-6B-24-FD"
+                },
+                 "zk2_server_event_carnaval.1x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_carnaval.1x",
+                     "hashValue": "95-D3-BC-34-49-EE-7D-67-97-54-06-1B-8B-13-C8-00-6F-82-BD-D8"
+                },
+                 "zk2_server_event_carnaval.2x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_carnaval.2x",
+                     "hashValue": "1F-EE-9C-D3-DD-2A-64-27-49-20-1F-AE-D8-36-90-97-80-FF-1A-72"
+                },
+                 "zk2_server_event_christmas.1x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_christmas.1x",
+                     "hashValue": "30-39-5E-C9-37-B6-21-C8-70-F5-35-67-0D-59-C6-B2-A1-1E-9B-2B"
+                },
+                 "zk2_server_event_christmas.2x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_christmas.2x",
+                     "hashValue": "AE-18-04-E2-A6-81-E4-37-DA-45-F2-42-14-38-99-3E-04-71-3A-F7"
+                },
+                 "zk2_server_event_cny.1x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_cny.1x",
+                     "hashValue": "D0-7C-19-F5-5A-C5-B3-C0-96-0E-16-19-4F-89-45-0A-A6-71-52-D5"
+                },
+                 "zk2_server_event_cny.2x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_cny.2x",
+                     "hashValue": "67-64-F5-1E-2B-7A-0D-F1-11-3C-82-89-38-B3-F0-CA-90-6B-9E-93"
+                },
+                 "zk2_server_event_posteaster.1x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_posteaster.1x",
+                     "hashValue": "58-37-64-F7-6A-52-DD-3E-97-FB-7A-11-67-2B-83-1B-85-11-C2-D4"
+                },
+                 "zk2_server_event_posteaster.2x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_posteaster.2x",
+                     "hashValue": "34-7D-DF-10-00-96-96-75-1D-5E-DE-46-8A-14-A7-7A-91-A9-20-2C"
+                },
+                 "zk2_server_event_preeaster.1x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_preeaster.1x",
+                     "hashValue": "01-8C-2D-8B-19-2E-3B-C7-8A-33-09-63-EE-3E-F8-25-EE-EC-D4-28"
+                },
+                 "zk2_server_event_preeaster.2x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_preeaster.2x",
+                     "hashValue": "C0-7F-5F-DC-92-79-A9-9B-47-13-4C-7F-8F-B2-EE-84-33-7B-7E-98"
+                },
+                 "zk2_server_event_sakura.1x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_sakura.1x",
+                     "hashValue": "0F-FF-9C-AC-DC-0A-96-30-D1-10-0E-4D-74-13-F8-09-17-EB-2C-97"
+                },
+                 "zk2_server_event_sakura.2x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_sakura.2x",
+                     "hashValue": "01-FC-78-53-0A-3D-88-35-65-71-86-6C-BE-D0-1B-16-29-70-EB-D2"
+                },
+                 "zk2_server_event_valentines.1x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_valentines.1x",
+                     "hashValue": "75-57-C5-11-5C-07-06-6D-D9-E2-24-CF-13-06-C6-24-6A-6A-F1-13"
+                },
+                 "zk2_server_event_valentines.2x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_event_valentines.2x",
+                     "hashValue": "DD-EA-F7-8F-E8-3A-56-ED-BF-B2-01-6A-29-40-DC-FC-CC-A2-17-F2"
+                },
+                 "zk2_server_pond_effect_prefabs": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_pond_effect_prefabs",
+                     "hashValue": "46-0B-4D-D6-A5-03-28-B3-5D-D0-97-D6-25-C2-5E-97-8D-58-2D-F6"
+                },
+                 "zk2_server_shop.1x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_shop.1x",
+                     "hashValue": "81-50-B3-DA-A3-A5-66-94-83-82-63-3C-DB-02-AE-9A-18-C9-74-9F"
+                },
+                 "zk2_server_shop.2x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_shop.2x",
+                     "hashValue": "71-22-B3-B5-D3-C8-13-7F-FB-39-1F-C6-28-4F-F5-89-13-63-3A-16"
+                },
+                 "zk2_server_skins.1x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_skins.1x",
+                     "hashValue": "96-67-6C-76-C7-3D-4B-E3-20-01-D1-1A-DD-9E-1F-32-C6-C1-B7-E9"
+                },
+                 "zk2_server_skins.2x": {
+                    "path": "cache/2.0.0/androidPlatform/assetbundles/zk2_server_skins.2x",
+                     "hashValue": "66-5B-1A-4C-55-B0-EC-B5-C8-39-E5-FA-3A-1F-5C-A0-69-C1-AF-F9"
+                }
+            },
+             "iOSPlatform": {
+                "zk2_server_decorations.1x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_decorations.1x",
+                     "hashValue": "A8-51-B4-60-70-BE-59-27-23-3C-DD-8E-68-E3-A4-1F-3C-E9-AE-8F"
+                },
+                 "zk2_server_decorations.2x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_decorations.2x",
+                     "hashValue": "39-C1-77-63-30-8B-40-9A-A2-0D-F8-4A-EA-53-AC-89-22-12-75-48"
+                },
+                 "zk2_server_decoration_prefabs": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_decoration_prefabs",
+                     "hashValue": "D2-88-CD-E4-A5-6E-08-4A-AE-09-B8-AE-B9-8B-2C-A4-C6-63-25-30"
+                },
+                 "zk2_server_event_carnaval.1x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_carnaval.1x",
+                     "hashValue": "33-38-9D-03-EB-19-93-12-B5-19-ED-87-93-06-21-23-0B-10-B0-A3"
+                },
+                 "zk2_server_event_carnaval.2x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_carnaval.2x",
+                     "hashValue": "9E-78-22-0D-73-AE-1B-83-1D-A7-03-93-19-57-37-3C-9B-C1-B4-0E"
+                },
+                 "zk2_server_event_christmas.1x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_christmas.1x",
+                     "hashValue": "CD-E7-84-B2-4B-E7-F6-E2-AB-CB-32-A8-0C-45-ED-C3-F9-E2-1C-51"
+                },
+                 "zk2_server_event_christmas.2x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_christmas.2x",
+                     "hashValue": "13-34-A3-27-CD-3F-97-8E-09-C3-2E-0C-67-21-47-8B-B0-F2-AF-68"
+                },
+                 "zk2_server_event_cny.1x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_cny.1x",
+                     "hashValue": "1F-A5-AB-F4-5F-69-07-16-3D-51-8B-87-DF-22-F4-6A-86-D7-28-EF"
+                },
+                 "zk2_server_event_cny.2x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_cny.2x",
+                     "hashValue": "7E-43-AA-E4-10-58-84-60-12-AA-65-8C-8D-AD-6E-AB-25-15-99-1B"
+                },
+                 "zk2_server_event_posteaster.1x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_posteaster.1x",
+                     "hashValue": "04-B1-DF-FB-6E-0D-C5-1A-97-14-E8-EE-AD-EC-20-C8-CF-3A-A8-56"
+                },
+                 "zk2_server_event_posteaster.2x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_posteaster.2x",
+                     "hashValue": "19-FB-0C-FC-52-E5-81-23-BC-24-0F-5C-DB-FE-DC-99-4B-01-03-7D"
+                },
+                 "zk2_server_event_preeaster.1x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_preeaster.1x",
+                     "hashValue": "0A-82-25-7C-14-07-85-B6-70-E3-C3-55-ED-A6-65-69-17-CB-E2-65"
+                },
+                 "zk2_server_event_preeaster.2x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_preeaster.2x",
+                     "hashValue": "15-19-35-A9-59-9D-25-13-C7-C7-2A-65-8C-F2-3E-44-C1-AD-86-31"
+                },
+                 "zk2_server_event_sakura.1x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_sakura.1x",
+                     "hashValue": "96-70-63-85-7C-0C-F4-34-61-77-11-D4-59-D5-6E-16-EE-C2-CE-72"
+                },
+                 "zk2_server_event_sakura.2x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_sakura.2x",
+                     "hashValue": "E8-9F-9D-96-41-55-37-7F-A1-F0-58-7A-5E-11-DF-F2-73-4A-B5-F9"
+                },
+                 "zk2_server_event_valentines.1x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_valentines.1x",
+                     "hashValue": "BB-D6-97-43-BD-7A-FA-6B-30-8B-31-B9-BF-12-83-A6-BD-E5-A7-4A"
+                },
+                 "zk2_server_event_valentines.2x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_event_valentines.2x",
+                     "hashValue": "65-1E-0F-42-BF-66-56-0E-7F-D5-1C-E6-D5-42-56-C3-17-15-F1-FF"
+                },
+                 "zk2_server_pond_effect_prefabs": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_pond_effect_prefabs",
+                     "hashValue": "F6-5D-BE-B6-58-C7-DB-27-CD-E0-4C-7A-10-05-51-E4-18-C9-90-5C"
+                },
+                 "zk2_server_shop.1x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_shop.1x",
+                     "hashValue": "F5-7D-D1-01-4A-28-C0-4C-D7-AC-43-BB-28-01-4D-2A-FB-99-2D-07"
+                },
+                 "zk2_server_shop.2x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_shop.2x",
+                     "hashValue": "37-ED-96-1A-CC-7E-DB-EA-BA-4F-4A-4E-C0-89-11-8A-0C-6C-51-97"
+                },
+                 "zk2_server_skins.1x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_skins.1x",
+                     "hashValue": "AD-62-BA-6E-6A-32-9D-A4-EE-AE-0A-44-B6-20-50-D0-94-F0-83-A7"
+                },
+                 "zk2_server_skins.2x": {
+                    "path": "cache/2.0.0/iOSPlatform/assetbundles/zk2_server_skins.2x",
+                     "hashValue": "FB-37-28-76-AA-89-44-F5-0A-00-AC-22-D0-D5-1F-C0-3B-D0-8D-57"
+                }
+            }
+        },
+         "2.0.10": {
+            "allPlatforms": {
+                "ItemData.json": {
+                    "path": "cache/2.0.10/allPlatforms/ItemData.json",
+                     "hashValue": "1D-DB-5A-88-F5-41-1F-BE-29-62-05-55-38-C4-D1-DA-57-2A-1A-40"
+                }
+            }
+        },
+         "2.1.4": {
+            "allPlatforms": {
+                "GameServicesData.json": {
+                    "path": "cache/2.1.4/allPlatforms/GameServicesData.json",
+                     "hashValue": "56-5C-06-A3-04-94-17-71-64-BA-44-F5-FD-69-27-EC-E3-84-D2-41"
+                }
+            }
+        },
+         "2.1.6": {
+            "allPlatforms": {
+                "ItemData.json": {
+                    "path": "cache/2.1.6/allPlatforms/ItemData.json",
+                     "hashValue": "4E-3F-D6-75-6F-04-C9-52-13-1E-0D-76-4F-7F-A5-05-64-A8-9E-D3"
+                }
+            }
+        },
+         "2.2.0": {
+            "androidPlatform": {
+                "zk2_server_decorations.1x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_decorations.1x",
+                     "hashValue": "27-0F-F0-F6-12-59-7D-A8-BD-E8-1C-00-7F-4D-6C-47-53-02-B7-9D"
+                },
+                 "zk2_server_decorations.2x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_decorations.2x",
+                     "hashValue": "E1-20-21-8F-23-81-56-10-EA-69-9B-1C-81-30-3A-B5-B6-C8-5F-59"
+                },
+                 "zk2_server_decoration_prefabs": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_decoration_prefabs",
+                     "hashValue": "8D-31-C9-0B-2A-EE-50-52-7D-F1-80-52-49-DB-F0-C3-DC-4D-80-D0"
+                },
+                 "zk2_server_event_carnaval.1x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_carnaval.1x",
+                     "hashValue": "F7-10-96-93-C1-B1-F4-01-CE-AC-BD-50-39-0A-67-F3-90-B7-F0-03"
+                },
+                 "zk2_server_event_carnaval.2x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_carnaval.2x",
+                     "hashValue": "60-AE-6C-4C-4C-B7-D1-79-05-BA-1C-6C-DC-3C-E2-FB-A8-B9-18-5D"
+                },
+                 "zk2_server_event_christmas.1x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_christmas.1x",
+                     "hashValue": "E7-64-06-3A-31-00-0F-AE-B3-08-5C-C2-22-E1-1F-BC-11-4A-3D-57"
+                },
+                 "zk2_server_event_christmas.2x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_christmas.2x",
+                     "hashValue": "9E-00-9D-98-03-CB-1C-F5-8A-0D-8E-89-B9-A4-8F-F8-A9-74-D1-B1"
+                },
+                 "zk2_server_event_cny.1x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_cny.1x",
+                     "hashValue": "3A-30-09-8D-33-EA-9E-C3-0A-D9-CA-DA-0A-3F-FB-B7-BB-6A-7C-C1"
+                },
+                 "zk2_server_event_cny.2x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_cny.2x",
+                     "hashValue": "49-F6-A6-03-55-17-E6-0E-5F-23-39-55-52-18-B0-13-BB-F1-69-4F"
+                },
+                 "zk2_server_event_posteaster.1x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_posteaster.1x",
+                     "hashValue": "D9-A6-25-04-8B-EF-EB-AC-9C-1D-08-02-AC-07-99-0E-A3-12-96-C5"
+                },
+                 "zk2_server_event_posteaster.2x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_posteaster.2x",
+                     "hashValue": "B3-A2-98-7C-1A-80-6F-2C-F0-74-E2-46-74-D2-C8-2F-A1-FF-F8-66"
+                },
+                 "zk2_server_event_preeaster.1x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_preeaster.1x",
+                     "hashValue": "47-33-4C-6D-57-B6-82-D8-83-7A-86-99-13-20-FA-13-E0-30-38-52"
+                },
+                 "zk2_server_event_preeaster.2x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_preeaster.2x",
+                     "hashValue": "35-15-93-F5-B3-9C-F0-16-CC-6F-89-4E-84-5F-8B-09-0E-37-FF-AC"
+                },
+                 "zk2_server_event_sakura.1x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_sakura.1x",
+                     "hashValue": "77-D3-C3-20-81-15-0A-9B-E6-77-FD-A9-17-37-4D-CB-11-F5-F6-BD"
+                },
+                 "zk2_server_event_sakura.2x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_sakura.2x",
+                     "hashValue": "ED-8F-52-81-56-B8-97-6D-C0-46-F9-E2-E4-54-A2-28-78-C6-5F-6A"
+                },
+                 "zk2_server_event_valentines.1x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_valentines.1x",
+                     "hashValue": "80-A6-C6-65-4E-EB-6C-2C-E1-01-9F-5F-71-47-62-2A-28-50-7E-20"
+                },
+                 "zk2_server_event_valentines.2x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_event_valentines.2x",
+                     "hashValue": "E7-45-BE-A2-00-64-CD-B3-0D-BA-CE-E9-6B-45-87-C1-88-E5-EA-3D"
+                },
+                 "zk2_server_pond_effect_prefabs": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_pond_effect_prefabs",
+                     "hashValue": "52-2A-F4-E8-96-17-F1-D4-B9-15-4A-29-02-77-26-AD-DF-45-5C-A6"
+                },
+                 "zk2_server_shop.1x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_shop.1x",
+                     "hashValue": "F1-5B-03-77-71-65-8C-4D-85-C3-A5-C6-DA-40-B6-C0-5E-67-20-0E"
+                },
+                 "zk2_server_shop.2x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_shop.2x",
+                     "hashValue": "A1-EB-87-6D-00-04-13-72-1A-DB-59-85-99-9C-C2-D4-F6-A7-3C-5B"
+                },
+                 "zk2_server_skins.1x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_skins.1x",
+                     "hashValue": "F6-13-DB-CC-AD-F4-19-77-82-41-0D-7E-03-FA-BE-A6-8F-17-A8-0E"
+                },
+                 "zk2_server_skins.2x": {
+                    "path": "cache/2.2.0/androidPlatform/assetbundles/zk2_server_skins.2x",
+                     "hashValue": "62-52-F8-4B-DD-CF-6C-14-A3-3B-64-51-0D-6E-15-90-2F-B7-93-27"
+                }
+            },
+             "iOSPlatform": {
+                "zk2_server_decorations.1x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_decorations.1x",
+                     "hashValue": "6C-2E-67-DA-F8-06-BC-01-8C-8A-14-C7-E1-67-AB-0D-F4-33-4F-69"
+                },
+                 "zk2_server_decorations.2x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_decorations.2x",
+                     "hashValue": "05-35-03-80-AA-3B-02-49-62-7F-02-29-3B-DB-D4-03-FA-AC-D3-B6"
+                },
+                 "zk2_server_decoration_prefabs": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_decoration_prefabs",
+                     "hashValue": "B0-7F-23-93-8A-00-9A-47-C0-AF-9C-E9-34-47-06-E4-80-8D-67-41"
+                },
+                 "zk2_server_event_carnaval.1x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_carnaval.1x",
+                     "hashValue": "48-B0-08-E3-34-3D-0A-9F-0E-60-CA-64-E6-A5-DE-DC-B6-EF-88-24"
+                },
+                 "zk2_server_event_carnaval.2x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_carnaval.2x",
+                     "hashValue": "AE-9E-2D-71-F7-AD-9A-5C-AA-88-BD-03-91-AD-14-08-A6-1C-A8-73"
+                },
+                 "zk2_server_event_christmas.1x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_christmas.1x",
+                     "hashValue": "E1-12-F9-DE-27-F2-93-80-E1-55-C0-D5-F1-F6-AC-6B-B0-E7-A1-98"
+                },
+                 "zk2_server_event_christmas.2x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_christmas.2x",
+                     "hashValue": "40-5C-DC-C5-A4-7A-29-BA-21-CC-D2-92-FC-A9-FF-6A-12-40-9A-2B"
+                },
+                 "zk2_server_event_cny.1x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_cny.1x",
+                     "hashValue": "17-50-3E-E1-5C-4B-AD-B7-EC-57-9B-FA-94-D4-80-C8-9D-19-88-72"
+                },
+                 "zk2_server_event_cny.2x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_cny.2x",
+                     "hashValue": "C0-8D-5B-BE-3F-5D-3F-08-6E-6D-CA-10-1D-EA-DC-A6-81-CB-98-40"
+                },
+                 "zk2_server_event_posteaster.1x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_posteaster.1x",
+                     "hashValue": "A3-37-09-06-9E-05-63-34-7E-00-CE-4B-49-9D-C4-E9-39-27-CB-BF"
+                },
+                 "zk2_server_event_posteaster.2x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_posteaster.2x",
+                     "hashValue": "87-9A-EA-DF-12-3F-9E-64-6B-3C-36-78-6D-A6-07-84-08-1E-90-4F"
+                },
+                 "zk2_server_event_preeaster.1x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_preeaster.1x",
+                     "hashValue": "3F-46-50-72-6C-2A-C0-3F-B4-25-63-C0-F4-65-8E-C3-44-F1-99-39"
+                },
+                 "zk2_server_event_preeaster.2x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_preeaster.2x",
+                     "hashValue": "E3-A0-0F-40-B4-17-40-E4-3D-55-EE-99-5F-E8-6D-B6-C2-D2-13-88"
+                },
+                 "zk2_server_event_sakura.1x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_sakura.1x",
+                     "hashValue": "A7-61-9A-3A-61-FA-67-98-EE-C0-4F-22-14-A9-09-9D-53-77-09-0B"
+                },
+                 "zk2_server_event_sakura.2x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_sakura.2x",
+                     "hashValue": "FA-BA-CB-5C-C6-7B-D5-30-01-6D-3F-83-32-D4-4E-33-2A-6C-03-9C"
+                },
+                 "zk2_server_event_valentines.1x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_valentines.1x",
+                     "hashValue": "CD-C4-6D-29-13-EF-09-F8-D1-EA-8C-EB-E7-5C-C5-76-50-74-7B-80"
+                },
+                 "zk2_server_event_valentines.2x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_event_valentines.2x",
+                     "hashValue": "C5-32-2E-BE-3E-73-4A-16-6D-DA-B2-9C-CB-60-1D-7E-C8-86-F3-27"
+                },
+                 "zk2_server_pond_effect_prefabs": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_pond_effect_prefabs",
+                     "hashValue": "C3-42-DA-B1-D7-77-E9-92-B5-0F-87-76-A0-87-6D-78-4C-35-C7-E2"
+                },
+                 "zk2_server_shop.1x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_shop.1x",
+                     "hashValue": "26-42-31-A1-03-64-49-92-82-F9-0F-50-31-AA-6B-69-B1-99-48-B3"
+                },
+                 "zk2_server_shop.2x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_shop.2x",
+                     "hashValue": "CA-7E-0F-0E-72-1C-85-AA-9D-10-B8-72-97-53-B7-C1-FF-C9-71-CB"
+                },
+                 "zk2_server_skins.1x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_skins.1x",
+                     "hashValue": "FD-10-16-00-04-A0-3B-BF-4B-BA-9C-5F-22-32-94-34-19-DD-13-C5"
+                },
+                 "zk2_server_skins.2x": {
+                    "path": "cache/2.2.0/iOSPlatform/assetbundles/zk2_server_skins.2x",
+                     "hashValue": "5E-EC-2B-9B-D9-F0-38-5D-49-FE-DD-C2-85-BE-75-83-D1-CA-07-6B"
+                }
+            }
+        }
+    }
+}

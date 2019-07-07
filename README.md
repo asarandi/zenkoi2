@@ -6,7 +6,7 @@ small demo of impersonating an iOS client, getting in game currency and other;
 
 if you decide to run the scripts, make sure to change the "var1" value to your player id, which you can find in the "settings" tab of the main menu
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t0g74CfZ0Yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![video](http://img.youtube.com/vi/t0g74CfZ0Yg/0.jpg)](http://www.youtube.com/watch?v=t0g74CfZ0Yg)
 
 
 ### screenshots

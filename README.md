@@ -15,5 +15,5 @@ if you decide to run the scripts, make sure to change the "var1" value to your p
 
 ![image2](img/img2.png)
 
-![image2](img/img2.png)
+![image3](img/img3.png)
 

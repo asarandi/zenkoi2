@@ -4,21 +4,14 @@ import sys
 import json
 import time
 import random
-import hashlib
 import requests
-from gemsdata import levels
 from urllib.parse import parse_qs
+from gemsdata import levels
+from game_client import ticklen, var1, var2, var3, var4, clientVersion
 
 with open('data/PondData.json') as fp:
     prey = json.load(fp)['prey']
     fp.close()
-
-ticklen = 30
-var1 = '8r7ISENqaEGXih7Met9BI9'
-var2 = 'iOS'
-var3 = hashlib.md5(int(time.time()).to_bytes(length=4, byteorder='little')).hexdigest()
-var4 = 'iPhone5,1|iOS 10.3.3 ^ en'
-clientVersion = '2.2.2'
 
 headers = {
     'Host':             'landshark-zenkoi.appspot.com',

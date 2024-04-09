@@ -3,20 +3,13 @@
 import sys
 import json
 import time
-import hashlib
 import requests
 from urllib.parse import parse_qs
+from game_client import ticklen, var1, var2, var3, var4, clientVersion
 
 with open('data/PondData.json') as fp:
     patterns = json.load(fp)['patternNames']
     fp.close()
-
-ticklen = 30
-var1 = '8r7ISENqaEGXih7Met9BI9'
-var2 = 'iOS'
-var3 = hashlib.md5(int(time.time()).to_bytes(length=4, byteorder='little')).hexdigest()
-var4 = 'iPhone5,1|iOS 10.3.3 ^ en'
-clientVersion = '2.2.2'
 
 headers = {
     'Host':             'landshark-zenkoi.appspot.com',

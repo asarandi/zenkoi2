@@ -6,37 +6,11 @@ import time
 import random
 import requests
 from urllib.parse import parse_qs
-from game_client import ticklen, var1, var2, var3, var4, clientVersion
+from game_client import ticklen, var1, var2, var3, var4, clientVersion, headers, initial_data
 
-headers = {
-    'Host':             'landshark-zenkoi.appspot.com',
-    'User-Agent':       'Zen%20Koi%202/9144 CFNetwork/811.5.4 Darwin/16.7.0',
-    'Accept-Encoding':  'gzip, deflate',
-    'Content-Type':     'application/x-www-form-urlencoded',
-    'Accept-Language':  'en-us',
-    'Accept':           '*/*',
-    'Connection':       'keep-alive',
-    'X-Unity-Version':  '2018.3.11f1'
-}
+print("CLIENT HELLO:", initial_data, "\n")
 
-data = {
-    'var1':           var1,
-    'var2':           var2,
-    'var3':           var3,
-    'var4':           var4,
-    'clientVersion':  clientVersion,
-    'var5':          '-25200.000077',
-    'var6':          'en',
-    'var7':          'US',
-    'idfa':          '00000000-0000-0000-0000-000000000000',
-    'adTrackingOn':  '0',
-    'checkSeq':      '0',
-    'seq':           '0'
-}
-
-print("CLIENT HELLO:", data, "\n")
-
-req = requests.post('https://landshark-zenkoi.appspot.com/ZK2/GetGameStartData.php', headers=headers, data=data)
+req = requests.post('https://landshark-zenkoi.appspot.com/ZK2/GetGameStartData.php', headers=headers, data=initial_data)
 if req.status_code != 200:
     sys.exit('error')
 
